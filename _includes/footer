@@ -1,0 +1,18 @@
+	</article>
+		<div class='recent-posts'>
+			<h3>Recent Posts</h3>
+			<ul>
+				{% for post in site.posts %}
+				<li><a href="{{ post.url }}">{{ post.title }}</a>
+				{% endfor %}
+			</ul>
+		</div>
+		<h3>Tags</h3>
+		<ul class='tags'>
+			{% for tag in site.tags %} 
+			<li><a href='/notes/#tag-{{ tag[0] | replace:' ','-' | downcase }}' class='tag-{{ tag[0] | replace:' ','-' | downcase }}'>{{ tag[0] }} <span>x{{ tag[1].size }}</span></a>
+			{% endfor %}
+		</ul>
+	</aside>
+</div>
+<script src="/assets/js/extras.js"></script>
