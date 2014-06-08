@@ -1,0 +1,8 @@
+production_url: http://apsdehal.github.io
+permalink: /blog/:title 
+auto: true
+pygments: true
+markdown: redcarpet
+# RSS
+title: Amanpreet Singh
+description: Development and views blog
