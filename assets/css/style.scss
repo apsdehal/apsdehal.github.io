@@ -42,3 +42,70 @@
 .icon-rss:before {
   content: "\f09e";
 }
+
+html {
+  min-width: 940px;
+  background: #f5f4f2 url("/img/stripe.png") 0 22px repeat-x;
+}
+body {
+  max-width: 1100px;
+  margin: auto;
+  position: relative;
+}
+body,
+input,
+textarea {
+  font: 15px/1.5 sans-serif;
+  color: #333;
+}
+::selection {
+  background: #fff8b4;
+  color: #000;
+}
+::-webkit-input-placeholder {
+  color: #777;
+}
+:-moz-placeholder {
+  color: #777;
+}
+:-ms-input-placeholder {
+  color: #777;
+}
+.placeholder {
+  color: #777;
+}
+:target {
+  background-color: #fff8b4 !important;
+}
+input,
+textarea,
+select,
+p,
+nav,
+table,
+pre,
+blockquote {
+  margin-bottom: 14px;
+}
+
+a {
+  text-decoration: none;
+  &:link,
+  &:visited {
+    color: #1e87dd;
+  }
+  &:hover {
+    background-color: #ffface;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+.description,
+.welcome {
+  font-family: 'open sans', sans-serif;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -0.02em;
+}
