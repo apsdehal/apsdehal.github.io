@@ -88,14 +88,14 @@ pre,
 blockquote {
   margin-bottom: 14px;
 }
-a{
+header a{
   text-decoration: none !important;
 }
-a:link,
-a:visited {
+header a:link,
+header a:visited {
   color: #1e87dd;
 }
-a:hover {
+header a:hover {
   background-color: #ffface;
 }
 
@@ -660,6 +660,14 @@ header nav a:hover span {
   background-color: #ffd204;
   margin-top: -8px;
 }
+h1 a{
+  color: #fff !important;
+}
+h1 a:hover{
+  color: #ffd204 !important;
+  text-decoration: none;
+}
+
 /* Media Queries */
 
 @media (max-width: 992px){
