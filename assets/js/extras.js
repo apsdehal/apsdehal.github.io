@@ -1,5 +1,4 @@
-
-/* Below code is mostly copied one, for google analytics and tags hashchanges */
+/* Hereby I solemnly swear, Code below is mostly copied one, for google analytics and tags hashchanges */
 
 if (typeof window.console === 'object' && typeof window.console.log === 'function') {
 	window.console.log('Greetings!');

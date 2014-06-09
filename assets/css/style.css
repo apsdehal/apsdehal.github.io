@@ -433,6 +433,7 @@ header nav a:hover {
   background: #f5f4f2;
 }
 header nav span {
+  color:#1e87dd;
   background-color: #fff;
   display: inline-block;
   line-height: 36px;
@@ -601,9 +602,10 @@ header nav a:hover span {
   margin-left: 2%;
   margin-bottom: 4%;
   display:none;
+  overflow: hidden;
 }
 .mobile a{
-  color: #000;
+  color: #1e87dd;
   display: inline;
   margin:0px 3.5%;
 }
@@ -660,10 +662,10 @@ header nav a:hover span {
   background-color: #ffd204;
   margin-top: -8px;
 }
-h1 a{
+.enter{
   color: #fff !important;
 }
-h1 a:hover{
+.enter:hover{
   color: #ffd204 !important;
   text-decoration: none;
 }
