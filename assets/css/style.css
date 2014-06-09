@@ -492,16 +492,16 @@ nav a:hover span {
 .tags [data-active] span {
   color: #ccc;
 }
-.archive__item {
+.blog__item {
   border-top: 1px solid #ebebeb;
   overflow: auto;
 }
-.archive__item h3 {
+.blog__item h3 {
   line-height: 55px;
   margin: 0;
   padding: 0;
 }
-.archive__item .date {
+.blog__item .date {
   margin: 0;
   padding: 0;
   float: left;
@@ -536,7 +536,7 @@ nav a:hover span {
 
 .error404 .recent-posts,
 .home .recent-posts,
-.archive .recent-posts {
+.blog .recent-posts {
   display: none;
 }
 
