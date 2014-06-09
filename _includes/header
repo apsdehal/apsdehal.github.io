@@ -12,13 +12,19 @@
 	<!--[if lt IE 9]><script src='/js/html5.js'></script><![endif]-->
 	<title>{% if page.title %} {{ page.title }} {% else %} Amanpreet Singh {% endif %}</title>
 	<header>
-		<a class='me' rel='author' href='/'>Amanpreet Singh</a>
-		<a class='twitter' href='http://twitter.com/apsdehal' rel='me'><i class='icon-twitter'></i></a>
-		<a class='github' href='http://github.com/apsdehal' rel='me'>Github</a>
-		<nav>
-			<a href='/blog'><span>Blog</span></a>
-			<a href='/rss.xml'><span><i class='icon-rss'></i> RSS</span></a>
-		</nav>
+		<div class='info'>
+			<a class='me' rel='author' href='/'>Amanpreet Singh</a>
+		</div>
+		<div class='social'>
+			<a class='twitter' href='http://twitter.com/apsdehal' rel='me'><i class='icon-twitter'></i></a>
+			<a class='github' href='http://github.com/apsdehal' rel='me'>Github</a>
+		</div>
+		<div class='connect'>
+			<nav>
+				<a href='/blog'><span>Blog</span></a>
+				<a href='/rss.xml'><span><i class='icon-rss'></i> RSS</span></a>
+			</nav>
+		</div>
 	</header>
 	<div class='main' role='main'>
-		<article class='col-md-8 col-sm-12'>
+		<article class='col-sm-8'>

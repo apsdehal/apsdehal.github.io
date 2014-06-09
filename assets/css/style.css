@@ -88,8 +88,8 @@ pre,
 blockquote {
   margin-bottom: 14px;
 }
-a {
-  text-decoration: none;
+a{
+  text-decoration: none !important;
 }
 a:link,
 a:visited {
@@ -216,6 +216,7 @@ iframe.demo {
   display: block;
 }
 .main {
+  padding-top: 2%;
   padding-right: 5%;
   position: relative;
 }
@@ -267,6 +268,7 @@ header {
   overflow: hidden;
   font-family: sans-serif;
   font-weight: 600;
+  margin-left: 2%;
 }
 header a:link,
 header a:visited {
@@ -277,7 +279,7 @@ header a.twitter,
 header a.github {
   display: block;
   float: left;
-  width: 2.5%;
+  width: 30px;
   height: 30px;
   border-radius: 100%;
   margin-left: 5px;
@@ -318,7 +320,7 @@ header .github {
   background-size: contain;
   border:3px solid #fff;
   border-radius: 80%;
-  width: 47%;
+  width: 74px;
   height: 74px;
   margin: 3px 5px 0 0;
   vertical-align: top;
@@ -418,6 +420,7 @@ table tr td:first-child {
 }
 nav {
   margin-top: 14px;
+  margin-right: 13%;
   float: right;
 }
 nav a:link {
@@ -523,12 +526,10 @@ nav a:hover span {
 .home article, 
 .home aside {
   height: 495px;
+  margin-left:2%;
 }
 .home body {
   width: 100%;
-}
-.home .recent-posts {
-  display: none;
 }
 .error404 article {
   height: 575px;
@@ -539,10 +540,8 @@ nav a:hover span {
   height: 575px;
 }
 
-.error404 .recent-posts,
-.home .recent-posts,
-.blog .recent-posts {
-  display: none;
+.error404 .recent-posts{
+    display: none;
 }
 
 
@@ -596,57 +595,21 @@ nav a:hover span {
 
 @media (max-width: 992px){
 
-  aside{
-    display: none;
-  }
+  
 }
 
-/*@media (max-width: 1000px) {
-  main.container {
-    width: 85%;
-  }
+@media (max-width: 992px) {
 }
 
 @media (max-width: 520px) {
-  .post h1 {
-    font-size: 2.7em;
-  }
-  .post h2.excerpt {
-    font-size: 1.6em;
-    margin-bottom: 1em;
-  }
-  article.post section {
-    font-size: 1.3em;
-    line-height: 1.9em;
-  }
-  main.container ul li {
-    font-size: 0.8em;
-  }
-  footer .container {
-    font-size: 0.8em;
-  }
-  article.post h2 {
-    font-size: 1.4em;
-  }
 }
 
 @media (max-width: 360px) {
-  .content #name b {
-    font-weight: bold;
+  aside{
+    display: none;
   }
-  main.container ul li {
-    font-size: 0.7em;
-  }
-  footer .container {
-    font-size: 0.7em;
+  header div{
+    display:block;
   }
 }
-
-@media (max-width: 320px) {
-  main.container ul li {
-    font-size: 0.6em;
-  }
-  footer .container {
-    font-size: 0.6em;
-  }*/
 }
