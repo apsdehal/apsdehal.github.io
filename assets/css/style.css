@@ -25,10 +25,10 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
 }
-.icon--inline {
+ .icon--inline {
   margin-right: 5px;
 }
-.icon-twitter:before {
+ .icon-twitter:before {
   content: "\f099";
   color: #0099EC;
 }
@@ -126,7 +126,8 @@ h3 {
   color: #777;
 }
 .welcome {
-  font-size: 18px;
+  font-size: 19px;
+  width: 55%;
 }
 
 .date {
@@ -253,7 +254,6 @@ aside li {
   right: 0;
   border-left: 8px solid #9b8651;
   border-bottom: 8px solid #fff;
-}b;
 }
 aside li:before {
   display: none;
@@ -271,12 +271,12 @@ header {
   margin-left: 2%;
 }
 header a:link,
-header a:visited {
+a:visited {
   color: #222;
 }
 
-header a.twitter,
-header a.github {
+a.twitter,
+a.github {
   display: block;
   float: left;
   width: 30px;
@@ -290,16 +290,16 @@ header a.github {
   -o-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
-header a.twitter:hover,
-header a.github:hover {
+a.twitter:hover,
+a.github:hover {
   background-color: #ffd204;
 }
-header .twitter {
+.twitter {
   font-size: 18px;
   text-align: center;
   padding-top: 3px;
 }
-header .github {
+.github {
   background: #fff url("../img/icons.png") 3px 4px no-repeat;
   text-indent: -9999px;
 }
@@ -418,21 +418,21 @@ table tr td:first-child {
   font-size: 13px;
   color: #008000;
 }
-nav {
+header nav {
   margin-top: 14px;
-  margin-right: 13%;
+  margin-right: 11%;
   float: right;
 }
-nav a:link {
+header nav a:link {
   background: #f5f4f2;
   float: left;
   height: 44px;
   overflow: hidden;
 }
-nav a:hover {
+header nav a:hover {
   background: #f5f4f2;
 }
-nav span {
+header nav span {
   background-color: #fff;
   display: inline-block;
   line-height: 36px;
@@ -443,7 +443,7 @@ nav span {
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
-nav span:before {
+header nav span:before {
   content: '';
   position: absolute;
   top: 36px;
@@ -451,7 +451,7 @@ nav span:before {
   border-right: 8px solid #9b8651;
   border-bottom: 8px solid #fff;
 }
-nav span:after {
+header nav span:after {
   content: '';
   position: absolute;
   top: 36px;
@@ -459,7 +459,7 @@ nav span:after {
   border-left: 8px solid #9b8651;
   border-bottom: 8px solid #fff;
 }
-nav a:hover span {
+header nav a:hover span {
   background-color: #ffd204;
   margin-top: 0;
 }
@@ -518,6 +518,9 @@ nav a:hover span {
   line-height: 55px;
   font-size: 10px;
 }
+.blog aside{
+  margin-left: 2%;
+}
 
 .home article {
   background: #191c35 url("../img/welcome.jpg") left top no-repeat;
@@ -572,7 +575,7 @@ nav a:hover span {
   position:absolute; 
   top:0;
   right:0;
-  // background:url('');
+  background:url('');
 }
 .zoom img {
   display: block;
@@ -585,12 +588,78 @@ nav a:hover span {
 
 /* Anti-spam measure */
 .email:before {
-  content: '';
+  content: 'apsdehal';
 }
 .email:after {
-  content: '';
+  content: '@gmail.com';
+}
+.mobile{
+  height: 30px;
+  background-color: #fff;
+  color: #fff;
+  width: 93.5%;
+  margin-left: 2%;
+  margin-bottom: 4%;
+  display:none;
+}
+.mobile a{
+  color: #000;
+  display: inline;
+  margin:0px 3.5%;
+}
+.mobile>a{
+  margin-top:0px;
+}
+.mobile span{
+  line-height: 30px;
+  padding: 0 0px;
+  margin-top: 0px;
+  position: relative;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
+.mobile nav a:link {
+  background: #f5f4f2;
+  float: left;
+  height: 44px;
+  overflow: hidden;
+}
+.mobile nav a:hover {
+  background: #f5f4f2;
+}
+.mobile nav span {
+  background-color: #fff;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 10px;
+  margin-top: 0px;
+  position: relative;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.mobile nav a:hover span:before {
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 0;
+  border-right: 4px solid #9b8651;
+  border-bottom: 4px solid #fff;
+}
+.mobile nav a:hover span:after {
+  content: '';
+  position: absolute;
+  top: 30px;
+  right: 0;
+  border-left: 4px solid #9b8651;
+  border-bottom: 4px solid #fff;
+}
+.mobile nav a:hover span {
+  background-color: #ffd204;
+  margin-top: -8px;
+}
 /* Media Queries */
 
 @media (max-width: 992px){
@@ -599,17 +668,33 @@ nav a:hover span {
 }
 
 @media (max-width: 992px) {
+  .home article{
+    height: 400px;
+    margin-bottom: 5%;
+  }
 }
 
 @media (max-width: 520px) {
+  .home article{
+    display: none;
+  }
+  .home aside{
+    font-size: 0.9em;
+  }
+  .mobile{
+    font-size: 0.9em;
+    display:block;
+  }
+  .social{
+    display:none;
+  }
 }
 
 @media (max-width: 360px) {
-  aside{
-    display: none;
+  
+
+  .blog aside{
+    display:none;
   }
-  header div{
-    display:block;
-  }
-}
+  
 }
