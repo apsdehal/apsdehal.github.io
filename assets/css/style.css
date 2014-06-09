@@ -246,13 +246,13 @@ aside ul {
   list-style: none;
 }
 aside li {
+  font-size: 1.1em;
   padding: 0;
   margin: 0;
   background: none;
   border-top: 1px solid #ebebe
   top: 36px;
   right: 0;
-  border-left: 8px solid #9b8651;
   border-bottom: 8px solid #fff;
 }
 aside li:before {
@@ -420,7 +420,7 @@ table tr td:first-child {
 }
 header nav {
   margin-top: 14px;
-  margin-right: 11%;
+  margin-right: 15%;
   float: right;
 }
 header nav a:link {
@@ -534,6 +534,10 @@ header nav a:hover span {
 }
 .home body {
   width: 100%;
+}
+
+.post aside{
+  margin-left: 2%;
 }
 .error404 article {
   height: 575px;
@@ -705,6 +709,10 @@ header nav a:hover span {
 
   .blog aside{
     display:none;
+  }
+
+  .post aside{
+    margin-top: 5%;
   }
   
 }

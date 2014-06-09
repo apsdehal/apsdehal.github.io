@@ -3,6 +3,7 @@ title: 'Night Shout'
 layout: post
 meta: Short poem by apsdehal.
 tags: [Poems]
+class: post
 ---
 
 Don't know, how to show,
