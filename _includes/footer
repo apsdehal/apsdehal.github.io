@@ -11,7 +11,7 @@
 		<h3>Tags</h3>
 		<ul class='tags'>
 			{% for tag in site.tags %} 
-			<li><a href='/notes/#tag-{{ tag[0] | replace:' ','-' | downcase }}' class='tag-{{ tag[0] | replace:' ','-' | downcase }}'>{{ tag[0] }} <span>x{{ tag[1].size }}</span></a>
+			<li><a href='/blog/#tag-{{ tag[0] | replace:' ','-' | downcase }}' class='tag-{{ tag[0] | replace:' ','-' | downcase }}'>{{ tag[0] }} <span>x{{ tag[1].size }}</span></a>
 			{% endfor %}
 		</ul>
 	</aside>

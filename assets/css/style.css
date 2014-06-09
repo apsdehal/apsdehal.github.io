@@ -524,7 +524,9 @@ header nav a:hover span {
 }
 
 .home article {
-  background: #191c35 url("../img/welcome.jpg") left top no-repeat;
+  
+  background-color: rgba(0,0,0,0.1);
+  background: url("../img/welcome.jpg") left top no-repeat;
   color: #fff;
   background-size: 100% 100%;
 }
