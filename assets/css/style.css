@@ -549,6 +549,7 @@ header nav a:hover span {
 }
 .error404 aside {
   height: 575px;
+  margin-left: 2%;
 }
 
 .error404 .recent-posts{
@@ -691,7 +692,7 @@ header nav a:hover span {
   }
 }
 @media (max-width: 768px){
-  .post aside{
+  .post ,.error404 aside{
     margin-top: 5%;
     width: 100%;
     margin-left: 0%;
