@@ -690,7 +690,13 @@ header nav a:hover span {
     margin-bottom: 5%;
   }
 }
-
+@media (max-width: 768px){
+  .post aside{
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
 @media (max-width: 520px) {
   .home article{
     display: none;
@@ -712,10 +718,6 @@ header nav a:hover span {
 
   .blog aside{
     display:none;
-  }
-
-  .post aside{
-    margin-top: 5%;
   }
   
 }
