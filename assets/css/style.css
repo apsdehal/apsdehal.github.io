@@ -316,7 +316,7 @@ a.github:hover {
 .me:before {
   display: inline-block;
   content: '';
-  background: url("../img/avatar.jpg") center center no-repeat;
+  background: url("../img/avatar.jpeg") center center no-repeat;
   background-size: contain;
   border:3px solid #fff;
   border-radius: 80%;
@@ -526,7 +526,7 @@ header nav a:hover span {
 .home article {
   
   background-color: rgba(0,0,0,0.1);
-  background: url("../img/welcome.jpg") left top no-repeat;
+  background: url("../img/welcome.jpeg") left top no-repeat;
   color: #fff;
   background-size: 100% 100%;
 }
