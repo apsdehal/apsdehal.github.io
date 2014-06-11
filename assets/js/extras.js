@@ -7,13 +7,12 @@ if (typeof window.console === 'object' && typeof window.console.log === 'functio
 
 // Analytics
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-window.ga('create', '', '');
-window.ga('send', 'pageview');
-
+ga('create', 'UA-51836617-1', 'apsdehal.in');
+ga('send', 'pageview');
 
 // Error logging
 window.onerror = function(msg, url, line){
