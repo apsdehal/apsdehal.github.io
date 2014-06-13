@@ -5,4 +5,4 @@ class: home
 
 <h1><a href="/blog" class="enter"> Enter... </a>
 
-<p class='welcome'> I'm Amanpreet, a developer studying at Indian Institute of Technology, Roorkee. I innovate new things specifically in the field of web development. At other times, I am a member of SDSLabs. Occasionaly, I do competitive programming as well as ethical hacking.</p>
+<p class='welcome'> Currently pursuing B.Tech in Electrical Engineering at Indian Institute of Technology, Rookee, Amanpreet a.k.a apsdehal has a passion for Web Development and competitive programming. Lately, he is high on networking and security. You can find him in his world of ideas or SDSLabs</p>
