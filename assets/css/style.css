@@ -722,3 +722,22 @@ header nav a:hover span {
   }
   
 }
+
+@-webkit-keyframes move-y {
+    0%, 35%, 60%, 82%, 92%, 95%, 98%{
+        -webkit-transform: translateY(-5px);
+        -webkit-animation-timing-function: ease-in;
+        color: #ffd204 ;
+    } 
+    25%,55%, 75%, 85%,94%,100%{
+        -webkit-transform: translateY(5px);
+        -webkit-animation-timing-function: ease-out;
+    }
+}
+h1 a{
+    -webkit-animation: move-y 4s ease 10s;
+    -moz-animation: move-y 4s ease 10s;
+    -o-animation: move-y 4s ease 10s;
+    position:absolute;
+    top:10px;
+}
