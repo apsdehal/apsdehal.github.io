@@ -276,7 +276,7 @@ a:visited {
 }
 
 a.twitter,
-a.github {
+a.github, a.google, a.fb{
   display: block;
   float: left;
   width: 30px;
@@ -291,7 +291,7 @@ a.github {
   transition: background-color 0.2s;
 }
 a.twitter:hover,
-a.github:hover {
+a.github:hover, a.fb:hover, a.google:hover {
   background-color: #ffd204;
 }
 .twitter {
@@ -302,6 +302,21 @@ a.github:hover {
 .github {
   background: #fff url("../img/icons.png") 3px 4px no-repeat;
   text-indent: -9999px;
+}
+.google {
+  background: #fff url("../img/google-plus.png") no-repeat;
+  background-size: 22px 22px;
+  text-indent: -9999px;
+  background-position: 4px 4px;
+}
+
+.fb {
+  background: #fff url("../img/fb.png") no-repeat;
+  background-size: 25px 25px;
+  text-indent: -9999px;
+  background-position: 1px 2px;
+  margin-left: 0px !important;
+
 }
 
 .me {
