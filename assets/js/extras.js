@@ -1,3 +1,47 @@
+  /* The script below activates hashChange event handler */
+
+  (function() {
+    var items = document.querySelectorAll('.blog__item');
+    var tags = document.querySelectorAll('.tags a');
+
+    if (!items.length) { return; }
+
+    function filter() {
+      var selector = /^#tag-/.test(location.hash) ? location.hash.replace('#', '.') : false;
+
+      if (selector) {
+        [].forEach.call(tags, function(i){
+          i.removeAttribute('data-active');
+        });
+
+        [].forEach.call(document.querySelectorAll(selector), function(i) {
+          i.setAttribute('data-active', true);
+        });
+
+        if (selector === '.tag-all') {
+          [].forEach.call(items, function(i){
+            i.style.display = 'block';
+          });
+        } else {
+          [].forEach.call(items, function(i){
+            i.style.display = 'none';
+          });
+
+          [].forEach.call(document.querySelectorAll(selector), function(i){
+            i.style.display = 'block';
+          });
+        }
+      }
+
+      return false;
+    }
+
+    window.addEventListener('hashchange', filter);
+
+    filter();
+  }());
+
+
 /* Hereby I solemnly swear, Code below is mostly copied one, for google analytics and tags hashchanges */
 
 if (typeof window.console === 'object' && typeof window.console.log === 'function') {
