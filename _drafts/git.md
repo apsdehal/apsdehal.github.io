@@ -91,4 +91,20 @@ This will create a whole new repo in which you can commit, push directly or file
 
 - git branch and checkout
 
-Imagine you want to test or add a new cool feature for your repository, but don't want to make changes in original one, you can create branches to do that. Branches have name, and `master` is the base one (it can be renamed)
+Imagine you want to test or add a new cool feature for your repository, but don't want to make changes in original one, you can create branches to do that. Branches have name, and `master` is the base one (it can be renamed). For creating a new branch
+
+```
+git branch "branchname (without quotes)"
+```
+This will create a new branch. You can shift to that branch by
+```
+git checkout "branchname (without quotes)"
+```
+There is another command to create a branch and shift to it simultaneously
+```
+git checkout -b "branchname (without quotes)"
+```
+You can always list your branches by 
+```
+git branch
+```
