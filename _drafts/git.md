@@ -108,3 +108,7 @@ You can always list your branches by
 ```
 git branch
 ```
+
+###Where to now?
+
+This is more than enough to get you started, I have almost covered up most of the used commands in Git. For further reading you can use these resources:
