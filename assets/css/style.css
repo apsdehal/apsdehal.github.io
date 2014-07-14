@@ -84,8 +84,7 @@ select,
 p,
 nav,
 table,
-pre,
-blockquote {
+pre{
   margin-bottom: 14px;
 }
 header a{
@@ -190,7 +189,10 @@ pre code {
 blockquote {
   border-left: 3px solid #ccc;
   background: #F8F8F8;
-  padding: 15px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-top: 15px;
+  margin-bottom: 15px;
 }
 
 a.demo {
