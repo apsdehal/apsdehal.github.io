@@ -638,10 +638,10 @@ header nav a:hover span {
 
 /* Anti-spam measure */
 .email:before {
-  content: 'apsdehal';
+  content: 'me';
 }
 .email:after {
-  content: '@gmail.com';
+  content: '@apsdehal.in';
 }
 .mobile{
   height: 30px;
