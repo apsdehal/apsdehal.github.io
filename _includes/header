@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="author" content="Amanpreet Singh">
 	<meta name="keywords" content="apsdehal, amanpreet singh, sdslabs, github pages, iit roorkee, iitr, aps16uee, thomso">
+	<link rel='shortcut icon' href='/assets/img/favicon.ico' />
 	<!--Open Graph -->
 	<meta property="og:title" content="{{ page.title }}" >
 	<meta property="og:url" content="{{ site.production_url }}{{ page.url }}" >
@@ -14,7 +15,7 @@
 	<meta property="og:type" content="article">
 	{% endif %}
 	<meta property="og:site_name" content="Amanpreet" >
-	<meta property="og:image" content="http://captnemo.in/img/favicon.png" >
+	<meta property="og:image" content="http://apsdehal.in/img/favicon.png" >
 	{% if page.description %}
 	<meta property="og:description" content="{{ page.description }}">
 	{% endif %}
