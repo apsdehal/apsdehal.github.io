@@ -2,6 +2,9 @@
 layout: default
 permalink: /blog/
 class: blog
+description: Amanpreet is a tech-enthusiast, developer, fiction-fan who loves to build up new cool things by exploring the technologies available around the globe.
+meta: Personal Blog of Amanpreet Singh
+title: Amanpreet Singh's Blog
 ---
 <h1>Blog</h1>
 

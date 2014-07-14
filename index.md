@@ -1,6 +1,9 @@
 ---
 layout: default
 class: home
+description: Amanpreet is a tech-enthusiast, developer, fiction-fan who loves to build up new cool things by exploring the technologies available around the globe
+meta: Personal Website of Amanpreet Singh
+title: Amanpreet Singh
 ---
 
 <h1><a href="/blog" class="enter"> Enter... </a>
