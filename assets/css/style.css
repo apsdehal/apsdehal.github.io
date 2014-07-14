@@ -177,17 +177,16 @@ code {
   padding: 0 5px;
 }
 pre code {
-  padding: 15px 25px;
-  overflow: auto;
+  padding: 15px 20px;
+  padding-left: 20px;
+  overflow: hidden;
   display: block;
   line-height: inherit;
-  margin-left: -25px;
-  margin-right: -25px;
   border-radius: none;
 }
 
 blockquote {
-  border-left: 3px solid #ccc;
+  border-left: 4px solid #428bca;;
   background: #F8F8F8;
   padding: 5px;
   padding-left: 10px;
@@ -559,6 +558,9 @@ header nav a:hover span {
 .post aside{
   margin-left: 2%;
 }
+.post article a{
+  color: #428bca;
+}
 .error404 article {
   height: 575px;
   background: url("../img/404.png") center center no-repeat;
@@ -591,6 +593,15 @@ header nav a:hover span {
   display:inline-block;
   position: relative;
 }
+.post .main article ul li::before {
+  line-height: 1.5;
+  vertical-align: middle;
+  color: #428bca;
+}
+.post .main article h3{
+  color: #428bca;
+}
+
 
 /* magnifying glass icon */
 .zoom:after {
