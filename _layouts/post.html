@@ -3,13 +3,7 @@
 <h1>{{ page.title }}</h1>
 
 {% if page.meta %}
-<p class='description'>{{ page.meta }} <iframe
-  src="http://www.facebook.com/plugins/like.php?layout=button_count&amp;show_faces=false&amp;width=450&amp;action=like&amp;share=true&amp;colorscheme=light&amp;height=20&amp;href={{ site.production_url }}{{ page.url }}"
-  scrolling="no"
-  frameborder="0"
-  style="border:none; overflow:hidden; width:450px; height:80px;"
-  allowTransparency="true">
-</iframe> </p>
+<p class='description'>{{ page.meta }} {% include fblike %}</p>
 {% endif %}
 
 
@@ -21,6 +15,7 @@
 
 {{ content }}
 <hr>
+<p class="fb-like"> {% include fblike %} </p>
 <h2>Hey,</h2>
 <p>Follow me on <a href="http://twitter.com/apsdehal" rel='me'>Twitter</a> and <a href="http://github.com/apsdehal" rel='me'>Github</a>, that's where I'm most active these days.  You can also email me at (<span class='email'></span>).  Thanks!</p>
 

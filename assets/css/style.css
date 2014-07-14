@@ -571,6 +571,9 @@ header nav a:hover span {
   box-shadow: 5px 5px 5px #888;
   border: 1px solid #eee;
 }
+.post .fb-like iframe{
+  padding-left: 2px;
+}
 .error404 article {
   height: 575px;
   background: url("../img/404.png") center center no-repeat;
