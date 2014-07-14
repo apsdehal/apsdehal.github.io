@@ -217,6 +217,12 @@ iframe.demo {
   overflow: hidden;
   display: block;
 }
+iframe{
+  height: 20px !important;
+  padding-left: 10px;
+  position: relative;
+  top: 4px;
+}
 .main {
   padding-top: 2%;
   padding-right: 5%;
@@ -561,6 +567,10 @@ header nav a:hover span {
 .post article a{
   color: #428bca;
 }
+.post article img{
+  box-shadow: 5px 5px 5px #888;
+  border: 1px solid #eee;
+}
 .error404 article {
   height: 575px;
   background: url("../img/404.png") center center no-repeat;
@@ -733,6 +743,9 @@ header nav a:hover span {
   .home aside{
     font-size: 0.9em;
   }
+  iframe{
+    padding-left: 2px;
+  }
   .mobile{
     font-size: 0.9em;
     display:block;
@@ -740,8 +753,18 @@ header nav a:hover span {
   .social{
     display:none;
   }
+  pre{
+    white-space: normal;
+  }
 }
-
+@media (max-width: 480px){
+  .post iframe {
+    width: 80% !important;
+    padding-left: 2px;
+    white-space: normal;
+    height: 30px !important;
+  }
+}
 @media (max-width: 360px) {
   
 
