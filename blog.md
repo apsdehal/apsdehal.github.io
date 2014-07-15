@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog/
 class: blog
-description: Amanpreet is a tech-enthusiast, developer, fiction-fan, programming addict who loves to build up new cool things by exploring the technologies available around the globe. When not fiddled with all these things, he is a B.Tech, Electrical, 3rd Year student at Indian Insitute of Technology, Roorkee.
+description: Amanpreet is a tech-enthusiast, developer, fiction-fan, programming addict who loves to build up new cool things by exploring the technologies available around the globe. When not fiddling with these things, he is a 3rd Year B.Tech, Electrical Engineering student at Indian Institute of Technology, Roorkee.
 meta: Personal Blog of Amanpreet Singh
 title: Amanpreet Singh's Blog
 ---
