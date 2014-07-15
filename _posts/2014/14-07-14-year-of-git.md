@@ -1,6 +1,7 @@
 ---
 title: 'Year of Git and 1000th commit'
 layout: post
+description: 'Today, I pushed my 1000th commit to Github, irony is, exactly one year before I pushed my first commit to Github. Its kind of like an exciting thing in itself. Well, this was such a terrific year in itself. I still remember pushing my first'
 meta: Git and me
 tags: [Web, Git, Learning] 
 class: post

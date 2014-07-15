@@ -117,12 +117,19 @@ h3 {
   font-weight: 600;
   line-height: 1.2;
 }
+.fb-like{
+  position: relative !important;
+  float: left;
+  display: inline-block !important;
+}
 .description {
   font-size: 20px;
   margin-bottom: 15px;
   font-weight: 400;
   margin-top: -5px;
   color: #777;
+  display: inline;
+  float: left;
 }
 .welcome {
   font-size: 19px;
