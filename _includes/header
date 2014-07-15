@@ -15,7 +15,7 @@
 	<meta property="og:type" content="article">
 	{% endif %}
 	<meta property="og:site_name" content="Amanpreet" >
-	<meta property="og:image" content="http://apsdehal.in/img/favicon.png" >
+	<meta property="og:image" content="http://apsdehal.in/assets/img/favicon.png" >
 	{% if page.description %}
 	<meta property="og:description" content="{{ page.description }}">
 	{% endif %}

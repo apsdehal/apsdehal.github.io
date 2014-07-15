@@ -1,4 +1,4 @@
-production_url: http://apsdehal.github.io
+production_url: http://apsdehal.in
 permalink: /blog/:title 
 highlighter: pygments
 markdown: redcarpet
