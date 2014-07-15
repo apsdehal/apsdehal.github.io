@@ -9,7 +9,7 @@
 	<link rel='shortcut icon' href='/assets/img/favicon.png' />
 	<!--Open Graph -->
 	<meta property="og:title" content="{{ page.title }}" >
-	<meta property="og:url" content="{{ site.production_url }}{{ page.url }}" >
+	<meta property="og:url" content="http://apsdehal.in{{ page.url }}" >
 	{% if page.date %}
 	<meta property="article:published_time" content='{{ page.date | date:"%Y-%m-%d" }}' >
 	<meta property="og:type" content="article">
@@ -25,7 +25,7 @@
 	<link rel='stylesheet' href='/assets/css/bootstrap.min.css'>
 
 	<link rel='stylesheet' href='/assets/css/style.css'>
-	<link rel='canonical' href="{{ site.production_url }}{{ page.url }}">
+	<link rel='canonical' href="http://apsdehal.in{{ page.url }}">
 	<!-- RSS Feed -->
 	<link rel='alternate' type='application/rss+xml' href='/rss.xml'>
 
