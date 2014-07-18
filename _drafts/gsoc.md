@@ -19,4 +19,4 @@ You should concentrate on both these periods if you want to be a successful GSoC
 
 In the case of GSoC, its always true that *'Start early, start wise'*, in my case, I had started contributing to two organiztions in late November 2013. This had benefitted me in the long term. The more the time you spend with community, the more community gets to know you. The more they know they know you, more they know about your skills. Thus directly affecting your chances of success in GSoC selection. Try contributing to community, show them you care, even if you patches don't get merge, it doesn't matter, what matters is that community knows you exist and are contributing.
 
-The community is interested in long term contributors rather than short term money seeking wannabe developers 
+The community is interested in long term contributors rather than short term money seeking wannabe developers, start strong stay strong
