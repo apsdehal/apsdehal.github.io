@@ -13,6 +13,7 @@ class: home
 		<div> <span> <a href="//plus.google.com/+AmanpreetSingh94">Google+ </a></span></div>
 		<div> <span> <a href="//twitter.com/apsdehal"> Twitter <a></span></div>
 		<div> <span> <a href="mailto:me@apsdehal.in"> Email <a></span></div>
+		<div> <span class="handle"> @apsdehal </span> </div>
 	</div>
 </div>
 <div class="container">

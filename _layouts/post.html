@@ -1,7 +1,7 @@
 {% include header %}
 <div class="info">
 	<div class="name">
-		<h1>Amanpreet Singh</h1>
+		<h1><a href="/">Amanpreet Singh</h1></h1>
 	</div>
 	<div class="contact">
 		<div> <span> <a href="//github.com/apsdehal">Github</a></span> </div>
@@ -9,28 +9,31 @@
 		<div> <span> <a href="//plus.google.com/+AmanpreetSingh94">Google+ </a></span></div>
 		<div> <span> <a href="//twitter.com/apsdehal"> Twitter <a></span></div>
 		<div> <span> <a href="mailto:me@apsdehal.in"> Email <a></span></div>
+		<div> <span class="handle"> @apsdehal </span> </div>
 	</div>
 </div>
 <div class="container">
 	<div class="main-post">
-	<h1>{{ page.title }}</h1>
-
-	{% if page.meta %}
-	<p class='description'>{{ page.meta }} {% include fblike %}</p>
-	{% endif %}
-
-
+	<div class="top-body">
+		<div class="title">
+		<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+		</div>
+		{% if page.meta %}
+		<p class='description'>{{ page.meta }} </p>
+		{% endif %}
+	</div>
 	<hr>
 
 	{% if page.date %}
-	<p class='date'><span class='icon-calendar icon--inline'></span>{{ page.date | date: "%B %e, %Y" }}</p>
+	<p class='date'><span class='icon-calendar icon--inline'></span> {{ page.date | date: "%B %e, %Y" }}</p>
 	{% endif %}
-
-	{{ content }}
+	<div class="content">
+		<p class="fb-like">{% include fblike %}</p>
+		{{ content }}
+		<p class="fb-like"> {% include fblike %} </p>
+	</div>
 	<hr>
-	<p class="fb-like"> {% include fblike %} </p>
-	<h2>Hey,</h2>
-	<p>Follow me on <a href="http://twitter.com/apsdehal" rel='me'>Twitter</a> and <a href="http://github.com/apsdehal" rel='me'>Github</a>, that's where I'm most active these days.  You can also email me at (<span class='email'></span>).  Thanks!</p>
+	<p>Follow me on <a href="http://twitter.com/apsdehal" rel='me'>Twitter</a> and <a href="http://github.com/apsdehal" rel='me'>Github</a>, that's where I'm most active these days.  You can also email me at <a href="mailto:me@apsdehal.in">me@apsdehal.in</a>.  Thanks!</p>
 
 	<p>
 	<iframe src="http://ghbtns.com/github-btn.html?user=apsdehal&amp;type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="20"></iframe>
