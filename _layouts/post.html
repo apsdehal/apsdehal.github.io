@@ -1,30 +1,46 @@
 {% include header %}
-<h1>{{ page.title }}</h1>
+<div class="info">
+	<div class="name">
+		<h1>Amanpreet Singh</h1>
+	</div>
+	<div class="contact">
+		<div> <span> <a href="//github.com/apsdehal">Github</a></span> </div>
+		<div> <span> <a href="//facebook.com/amanpreet.singh.18"> Facebook </a></span></div>
+		<div> <span> <a href="//plus.google.com/+AmanpreetSingh94">Google+ </a></span></div>
+		<div> <span> <a href="//twitter.com/apsdehal"> Twitter <a></span></div>
+		<div> <span> <a href="mailto:me@apsdehal.in"> Email <a></span></div>
+	</div>
+</div>
+<div class="container">
+	<div class="main-post">
+	<h1>{{ page.title }}</h1>
 
-{% if page.meta %}
-<p class='description'>{{ page.meta }} {% include fblike %}</p>
-{% endif %}
+	{% if page.meta %}
+	<p class='description'>{{ page.meta }} {% include fblike %}</p>
+	{% endif %}
 
 
-<hr>
+	<hr>
 
-{% if page.date %}
-<p class='date'><span class='icon-calendar icon--inline'></span>{{ page.date | date: "%B %e, %Y" }}</p>
-{% endif %}
+	{% if page.date %}
+	<p class='date'><span class='icon-calendar icon--inline'></span>{{ page.date | date: "%B %e, %Y" }}</p>
+	{% endif %}
 
-{{ content }}
-<hr>
-<p class="fb-like"> {% include fblike %} </p>
-<h2>Hey,</h2>
-<p>Follow me on <a href="http://twitter.com/apsdehal" rel='me'>Twitter</a> and <a href="http://github.com/apsdehal" rel='me'>Github</a>, that's where I'm most active these days.  You can also email me at (<span class='email'></span>).  Thanks!</p>
+	{{ content }}
+	<hr>
+	<p class="fb-like"> {% include fblike %} </p>
+	<h2>Hey,</h2>
+	<p>Follow me on <a href="http://twitter.com/apsdehal" rel='me'>Twitter</a> and <a href="http://github.com/apsdehal" rel='me'>Github</a>, that's where I'm most active these days.  You can also email me at (<span class='email'></span>).  Thanks!</p>
 
-<p>
-<iframe src="http://ghbtns.com/github-btn.html?user=apsdehal&amp;type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="20"></iframe>
-<a href="https://twitter.com/apsdehal" class="twitter-follow-button" data-show-count="false">Follow @apsdehal</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-</script>
-</p>
-{% include discus %}
+	<p>
+	<iframe src="http://ghbtns.com/github-btn.html?user=apsdehal&amp;type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="20"></iframe>
+	<a href="https://twitter.com/apsdehal" class="twitter-follow-button" data-show-count="false">Follow @apsdehal</a>
+	<script>
+	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+	</script>
+	</p>
+	{% include discus %}
 
-{% include footer %}
+	{% include footer %}
+	</div>
+</div>

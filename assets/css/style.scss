@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700);
+
+$blue : #428bca;
+$dark-blue: #2a6496;
+@mixin underlineAnimate() {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: $blue;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+* {
+	font-family : 'Josefin Sans', sans-serif;
+}
+
+a {
+	color: #000;
+	&:hover {
+		color: #000;
+		text-decoration: none;
+	}
+}
+.uanime {
+	&:after{
+		@include underlineAnimate;
+	}
+	&:hover:after{
+		visibility: visible;
+		-webkit-transform: scaleX(1);
+		transform: scaleX(1);
+	}
+
+}
+
+.info {
+	position: absolute;
+	right: 2%;
+	.name { 
+		h1 {
+			font-size: 60px;
+			font-weight: 500;
+			margin-bottom: 10px;
+			cursor: pointer;
+			@extend .uanime;
+		}
+	}
+	.contact {
+		div {
+			padding-right: 20px;
+			float: left;
+			font-size: 18px;
+			cursor: pointer;
+			@extend .uanime;
+		}
+	}
+}
+.home {
+	.container{
+		width: 100%;
+		position: absolute;
+		top: 30%;
+		.posts {
+			font-size: 24px;
+			width: 50%;
+			margin: 0 auto;
+			>div {
+				width: 100%;
+				padding: 10px 0px;
+				@extend .uanime;
+				span.post-date {
+					float: right;
+					color: $dark-blue;
+				}
+			}
+		}	
+	}
+}
+
+.post {
+	.container {
+		width: 100%;
+		.main-post {
+			width: 60%;
+			margin: 0 auto;
+		}
+	}
+}
