@@ -159,7 +159,7 @@ ul {
 						width: 90%;
 						font-weight: 500;
 						margin-bottom: 15px;
-						@extend .uanime
+						@extend .uanime;
 					}
 				}
 				.description {
@@ -169,6 +169,9 @@ ul {
 				}
 
 			}
+			.date {
+				font-size: 20px;
+			}
 			.content {
 				font-size: 24px;
 				line-height: 30px;
@@ -177,6 +180,61 @@ ul {
 				}
 				.fb-like{
 					height: 30px !important;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width:600px) {
+	.info {
+		position : static;
+		margin-left: 3%;
+		.name {
+			h1 {
+				font-size: 44px;
+			}
+		}
+		.contact {
+			div {
+				font-size : 15px;
+				padding-right: 8px;
+			}
+		}
+	}
+	.home {
+		.container {
+			width: 100%;
+			position: static;
+			display: block;
+			margin-top: 50px;
+			.posts {
+				width: 100%;
+				margin-left: 1px;
+				>div {
+					padding-left: 0px;
+					.post-date {
+						display : none;
+					}
+				}
+			}
+		}
+	}
+
+	.post {
+		.container {
+			position : static;
+			width: 100%;
+			.main-post {
+				width: 100%;
+				margin-left: -2%;
+				.top-body {
+					.title {
+						padding-top: 10px;
+						font-size : 15px;
+						width: 100%;
+
+					}
 				}
 			}
 		}

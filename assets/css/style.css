@@ -121,6 +121,8 @@ ul {
       margin: 0;
       font-size: 24px;
       font-weight: 200; }
+    .post .container .main-post .date {
+      font-size: 20px; }
     .post .container .main-post .content {
       font-size: 24px;
       line-height: 30px; }
@@ -128,3 +130,37 @@ ul {
         padding-bottom: 10px; }
       .post .container .main-post .content .fb-like {
         height: 30px !important; }
+
+@media screen and (max-width: 600px) {
+  .info, .post .info {
+    position: static;
+    margin-left: 3%; }
+    .info .name h1 {
+      font-size: 44px; }
+    .info .contact div {
+      font-size: 15px;
+      padding-right: 8px; }
+
+  .home .container {
+    width: 100%;
+    position: static;
+    display: block;
+    margin-top: 50px; }
+    .home .container .posts {
+      width: 100%;
+      margin-left: 1px; }
+      .home .container .posts > div {
+        padding-left: 0px; }
+        .home .container .posts > div .post-date {
+          display: none; }
+
+  .post .container {
+    position: static;
+    width: 100%; }
+    .post .container .main-post {
+      width: 100%;
+      margin-left: -2%; }
+      .post .container .main-post .top-body .title {
+        padding-top: 10px;
+        font-size: 15px;
+        width: 100%; } }
