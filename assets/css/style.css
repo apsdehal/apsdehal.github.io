@@ -124,7 +124,7 @@ ul {
     .post .container .main-post .date {
       font-size: 20px; }
     .post .container .main-post .content {
-      font-size: 24px;
+      font-size: 18px;
       line-height: 30px; }
       .post .container .main-post .content p {
         padding-bottom: 10px; }
@@ -163,4 +163,6 @@ ul {
       .post .container .main-post .top-body .title {
         padding-top: 10px;
         font-size: 15px;
-        width: 100%; } }
+        width: 100%; }
+      .post .container .main-post .content {
+        font-size: 18px; } }
