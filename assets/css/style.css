@@ -72,6 +72,9 @@ ul {
   -webkit-transform: scaleX(1);
   transform: scaleX(1); }
 
+.blue {
+  color: #2a6496; }
+
 .info, .post .info {
   position: absolute;
   right: 10px;
@@ -86,8 +89,8 @@ ul {
     float: left;
     font-size: 18px;
     cursor: pointer; }
-    .info .contact div .handle {
-      color: #2a6496; }
+    .info .contact div .handle a {
+      color: #2a6496 !important; }
 
 .home .container {
   width: 100%;
@@ -130,6 +133,18 @@ ul {
         padding-bottom: 10px; }
       .post .container .main-post .content .fb-like {
         height: 30px !important; }
+
+.error404 .container {
+  width: 100%; }
+  .error404 .container .e404 {
+    width: 50%;
+    margin-left: 38%;
+    margin-top: 20%; }
+    .error404 .container .e404 p {
+      font-size: 36px;
+      margin: 0; }
+      .error404 .container .e404 p:last-child {
+        margin-left: 12%; }
 
 @media screen and (max-width: 600px) {
   .info, .post .info {
