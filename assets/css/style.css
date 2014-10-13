@@ -134,6 +134,31 @@ ul {
       .post .container .main-post .content .fb-like {
         height: 30px !important; }
 
+.projects .info {
+  z-index: 1; }
+.projects .pure-rows {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 10%;
+  width: 80%; }
+  .projects .pure-rows .pure-g-r {
+    width: 100%; }
+    .projects .pure-rows .pure-g-r:last-child {
+      margin-top: 3%; }
+    .projects .pure-rows .pure-g-r section {
+      height: 230px; }
+      .projects .pure-rows .pure-g-r section .project {
+        border: 1px solid #eee;
+        width: 90%;
+        height: 230px; }
+        .projects .pure-rows .pure-g-r section .project .logo {
+          width: 100%;
+          height: 50%; }
+        .projects .pure-rows .pure-g-r section .project .info-box {
+          width: 100%;
+          height: 50%;
+          background-color: #ddd; }
+
 .error404 .container {
   width: 100%; }
   .error404 .container .e404 {
