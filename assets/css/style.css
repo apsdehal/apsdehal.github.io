@@ -56,10 +56,10 @@ blockquote {
 ul {
   font-size: 18px; }
 
-.uanime:after, .info .name h1:after, .info .contact div:after, .home .container .posts > div:after, .post .container .main-post .top-body .title h1:after {
+.uanime:after, .info .contact div:after {
   content: "";
   display: block;
-  width: 100%;
+  width: 103%;
   height: 2px;
   background-color: #428bca;
   visibility: hidden;
@@ -67,7 +67,7 @@ ul {
   transform: scaleX(0);
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s; }
-.uanime:hover:after, .info .name h1:hover:after, .info .contact div:hover:after, .home .container .posts > div:hover:after, .post .container .main-post .top-body .title h1:hover:after {
+.uanime:hover:after, .info .contact div:hover:after {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1); }
@@ -76,21 +76,29 @@ ul {
   color: #2a6496; }
 
 .info, .post .info {
-  position: absolute;
-  right: 10px;
+  text-align: center;
   z-index: 1; }
-  .info .name h1 {
-    font-size: 60px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    cursor: pointer; }
-  .info .contact div {
-    padding-right: 20px;
-    float: left;
-    font-size: 18px;
-    cursor: pointer; }
-    .info .contact div .handle a {
-      color: #2a6496 !important; }
+  .info .name {
+    width: 21%;
+    margin: 0 auto; }
+    .info .name h1 {
+      padding-right: 5px;
+      font-size: 4.0em;
+      font-weight: 500;
+      margin-bottom: 20px;
+      cursor: pointer;
+      border-bottom: 1px solid #ccc; }
+  .info .contact {
+    width: 21%;
+    margin: 0 auto; }
+    .info .contact div {
+      width: 16.66%;
+      font-size: 1.2em;
+      float: left;
+      cursor: pointer;
+      text-align: center; }
+      .info .contact div a:hover {
+        color: #428bca; }
 
 .home .container {
   width: 100%;
@@ -100,37 +108,45 @@ ul {
     font-size: 24px;
     width: 50%;
     margin-left: 23%; }
-    .home .container .posts > div {
+    .home .container .posts > a:hover {
+      color: #428bca; }
+    .home .container .posts > a > div {
       width: 100%;
       padding: 10px 0px; }
-      .home .container .posts > div span.post-date {
+      .home .container .posts > a > div span.post-date {
         float: right;
         color: #2a6496; }
 
 .post .container {
   position: absolute;
-  top: 4%;
+  top: 30%;
   width: 100%; }
   .post .container .main-post {
     width: 50%;
-    margin-left: 20%; }
-    .post .container .main-post .top-body .title {
-      font-size: 20px; }
-      .post .container .main-post .top-body .title h1 {
-        width: 90%;
-        font-weight: 500;
-        margin-bottom: 15px; }
-    .post .container .main-post .top-body .description {
-      margin: 0;
-      font-size: 24px;
-      font-weight: 200; }
+    margin: 0 auto; }
+    .post .container .main-post .top-body {
+      margin: 0 auto; }
+      .post .container .main-post .top-body .title {
+        font-size: 1.5em; }
+        .post .container .main-post .top-body .title h1 {
+          width: 100%;
+          font-weight: 500;
+          margin-bottom: 15px; }
+      .post .container .main-post .top-body .description {
+        margin: 0;
+        font-size: 2em;
+        font-weight: 200; }
     .post .container .main-post .date {
       font-size: 20px; }
     .post .container .main-post .content {
-      font-size: 18px;
+      font-size: 1.5em;
       line-height: 30px; }
       .post .container .main-post .content p {
         padding-bottom: 10px; }
+      .post .container .main-post .content a {
+        border-bottom: 1px dotted #888; }
+        .post .container .main-post .content a:hover {
+          color: #428bca; }
       .post .container .main-post .content .fb-like {
         height: 30px !important; }
 
@@ -138,7 +154,7 @@ ul {
   z-index: 1; }
 .projects .pure-rows {
   position: absolute;
-  margin-top: 13%;
+  top: 30%;
   margin-left: 10%;
   width: 80%; }
   .projects .pure-rows .pure-g-r {
@@ -210,7 +226,7 @@ ul {
         overflow-x: hidden;
         position: absolute;
         border: 1px solid #DDD;
-        box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.1);
+        box-shadow: 3px 3px 2px rgba(60, 60, 60, 0.1);
         -moz-backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden; }
@@ -237,13 +253,22 @@ ul {
 
 @media screen and (max-width: 600px) {
   .info, .post .info {
+    width: 100%;
     position: static;
-    margin-left: 3%; }
-    .info .name h1 {
-      font-size: 44px; }
-    .info .contact div {
-      font-size: 15px;
-      padding-right: 8px; }
+    margin-left: 3%;
+    text-align: left; }
+    .info .name {
+      width: 100%;
+      margin: 0;
+      margin-left: 1%; }
+      .info .name h1 {
+        margin-left: 0%;
+        font-size: 44px; }
+    .info .contact {
+      width: 100%; }
+      .info .contact div {
+        font-size: 15px;
+        padding-right: 8px; }
 
   .home .container {
     width: 100%;
@@ -252,7 +277,7 @@ ul {
     margin-top: 50px; }
     .home .container .posts {
       width: 100%;
-      margin-left: 1px; }
+      margin-left: 1%; }
       .home .container .posts > div {
         padding-left: 0px; }
         .home .container .posts > div .post-date {
