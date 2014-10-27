@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700);
+@import "compass";
 
 $blue : #428bca;
 $dark-blue: #2a6496;
@@ -204,23 +205,27 @@ ul {
 			}
 			width : 100%;
 			section {
-				height: 300px;
+				height: 150px;
 				.project {
 					border: 1px solid #eee;
 					width: 90%;
-					height: 300px;
+					height: 150px;
 					.logo {
 						width : 100%;
-						height: 50%;
-						background-color: #ddd;
 						img {
 							width: 100%;
-							height: 150px;
+							height: 100%;
+						}
+						h2 {
+							padding-top: 5%;
+						}
+						h2, h3 {
+							text-align: center;
 						}
 					}
 					.info-box {
 						width : 100%;
-						height: 50%;
+						height: 100%;
 						h2 {
 							padding-top: 10px;
 							padding-left: 7px;
@@ -241,6 +246,42 @@ ul {
 							line-height: 1.4em;
 						}
 					}
+				}
+				._3d-box {
+					display: inline-block;
+					@include transition-property(all);
+					@include transition-duration(0.6s);
+					@include transition-timing-function(cubic-bezier(0.175,0.885,0.320,1.275));
+
+					position: relative;
+					width: 90%;
+					height: 150px;
+
+					@include transform-style(preserve-3d);
+
+					&:hover {
+						@include rotateY(90deg)
+					}
+				}
+				
+				._3d-face {
+					disply: inline;
+					width: 50%;
+					height: 100%;
+					overflow-x: hidden;
+					position: absolute;
+					border: 1px solid #DDD;
+					box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.1);
+
+					@include backface-visibility(hidden);
+				}
+
+				._3d-face--front {
+					@include translate3d(0px,0px, 0px);
+				}
+
+				._3d-face--right {
+					@include transform(rotateY(-90deg), translate3d(0px, 0px, 0px));
 				}
 			}
 		}
