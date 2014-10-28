@@ -79,17 +79,18 @@ ul {
   text-align: center;
   z-index: 1; }
   .info .name {
-    width: 21%;
+    width: 40%;
+    height: 40%;
     margin: 0 auto; }
     .info .name h1 {
       padding-right: 5px;
-      font-size: 4.0em;
+      font-size: 3.8em;
       font-weight: 500;
       margin-bottom: 20px;
       cursor: pointer;
       border-bottom: 1px solid #ccc; }
   .info .contact {
-    width: 21%;
+    width: 40%;
     margin: 0 auto; }
     .info .contact div {
       width: 16.66%;
@@ -102,27 +103,36 @@ ul {
 
 .home .container {
   width: 100%;
-  position: absolute;
-  top: 30%; }
+  clear: both;
+  position: relative;
+  top: 150px; }
   .home .container .posts {
-    font-size: 24px;
-    width: 50%;
-    margin-left: 23%; }
+    font-size: 1.7em;
+    width: 40%;
+    margin: 0 auto; }
     .home .container .posts > a:hover {
       color: #428bca; }
     .home .container .posts > a > div {
+      clear: both;
       width: 100%;
       padding: 10px 0px; }
+      .home .container .posts > a > div span.post-title {
+        display: inline-block;
+        width: 65%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis; }
       .home .container .posts > a > div span.post-date {
         float: right;
         color: #2a6496; }
 
 .post .container {
-  position: absolute;
-  top: 30%;
-  width: 100%; }
+  width: 100%;
+  clear: both;
+  position: relative;
+  top: 50px; }
   .post .container .main-post {
-    width: 50%;
+    width: 40%;
     margin: 0 auto; }
     .post .container .main-post .top-body {
       margin: 0 auto; }
@@ -147,14 +157,17 @@ ul {
         border-bottom: 1px dotted #888; }
         .post .container .main-post .content a:hover {
           color: #428bca; }
+      .post .container .main-post .content img {
+        max-width: 100%; }
       .post .container .main-post .content .fb-like {
         height: 30px !important; }
 
 .projects .info {
   z-index: 1; }
 .projects .pure-rows {
-  position: absolute;
-  top: 30%;
+  clear: both;
+  position: relative;
+  top: 150px;
   margin-left: 10%;
   width: 80%; }
   .projects .pure-rows .pure-g-r {
