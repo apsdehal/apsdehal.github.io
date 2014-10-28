@@ -136,7 +136,7 @@ ul {
 		position: relative;
 		top: 150px;
 		.posts {
-			font-size: 1.7em;
+			font-size: 1.6em;
 			width: 40%;
 			margin: 0 auto;
 			>a:hover{
@@ -148,7 +148,7 @@ ul {
 				padding: 10px 0px;
 				span.post-title {
 					display: inline-block;
-					width: 65%;
+					width: 60%;
 					overflow: hidden;
 					white-space: nowrap;
 					text-overflow: ellipsis;
@@ -333,7 +333,7 @@ ul {
 	}
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:750px) {
 	.info {
 		width: 100%;
 		position : static;
@@ -365,11 +365,17 @@ ul {
 			.posts {
 				width: 100%;
 				margin-left: 1%;
-				>div {
+				>a >div {
 					padding-left: 0px;
-					.post-date {
+					span.post-date {
 						display : none;
 					}
+					span.post-title {
+						width: 100%;
+						white-space: wrap;
+						text-overflow: none;
+					}
+
 				}
 			}
 		}
