@@ -21,6 +21,9 @@
 * {
   font-family: 'Josefin Sans', sans-serif; }
 
+body {
+  border-top: 10px solid black; }
+
 a {
   color: #000; }
   a:hover {
