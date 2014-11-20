@@ -226,6 +226,9 @@ ul {
 		z-index: 1;
 	}
 	.pure-rows {
+		a {
+			border-bottom: 1px dashed #333;
+		}
 		clear: both;
 		position: relative;
 		top: 150px;
@@ -274,7 +277,7 @@ ul {
 							padding: 0px;
 							padding-top: 3px;
 							padding-left: 20px;
-							font-size: 12px;
+							font-size: 16px;
 							line-height: 1.4em;
 						}
 					}

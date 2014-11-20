@@ -173,6 +173,8 @@ ul {
   top: 150px;
   margin-left: 10%;
   width: 80%; }
+  .projects .pure-rows a {
+    border-bottom: 1px dashed #333; }
   .projects .pure-rows .pure-g-r {
     width: 100%; }
     .projects .pure-rows .pure-g-r:last-child {
@@ -209,7 +211,7 @@ ul {
             padding: 0px;
             padding-top: 3px;
             padding-left: 20px;
-            font-size: 12px;
+            font-size: 16px;
             line-height: 1.4em; }
       .projects .pure-rows .pure-g-r section ._3d-box {
         display: inline-block;
