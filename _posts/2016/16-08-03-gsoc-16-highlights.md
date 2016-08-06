@@ -2,7 +2,7 @@
 title: 'Google Summer of Code 2016 Highlights'
 layout: post
 description: 'Post delineates the contributions made to jQuery Mobile during Google Summer of Code 2016'
-meta: GSoC 2016 with jQuery Foundation Highlight
+meta: Bug Hunt
 tags: [Web, GSoC]
 class: post
 ---
