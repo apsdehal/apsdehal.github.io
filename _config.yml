@@ -1,6 +1,6 @@
 production_url: http://apsdehal.in
-permalink: /blog/:title 
-highlighter: pygments
+permalink: /blog/:title
+highlighter: rouge
 markdown: redcarpet
 # RSS
 title: Amanpreet Singh
