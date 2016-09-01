@@ -4,16 +4,11 @@ permalink: /
 class: home
 ---
 
-{% include info %}
+{% include bars %}
 <div class="container">
-	<div class="posts">
-		{% for post in site.posts %}
-		<a href="{{ post.url }}">
-		<div>
-			<span class="post-title">{{ post.title }}</span>
-			<span class="post-date">{{ post.date | date: "%b. %e, %Y" }}</span>
-		</div>
-		</a>
-		{% endfor %}
+	{% include info %}
+	<div class="main-container">
+		{% include about %}
+		{% include posts %}
 	</div>
 </div>

@@ -1,13 +1,27 @@
-<div class="info">
-	<div class="name">
-		<a href="/"><h1>Amanpreet Singh</h1></a>
-	</div>
-	<div class="contact">
-		<div> <span> <a href="//github.com/apsdehal">Github</a></span> </div>
-		<div> <span><a href="/projects"> Projects </a></span> </div>
-		<div> <span> <a href="//about.me/apsdehal"> About </a></span></div>
-		<div> <span> <a href="//twitter.com/apsdehal"> Twitter </a></span></div>
-		<div> <span> <a href="/resume.pdf">Resume</a></span></div>
-		<div> <span> <a href="mailto:me@apsdehal.in"> Email </a></span></div>
-	</div>
+<div class="info-container">
+    <div class="info">
+        <div class="name">
+            <span>amanpreet singh</span>
+        </div>
+    </div>
+    <div class="social-links">
+        <div>
+            <span><a href="//github.com/apsdehal">Github</a></span>
+        </div>
+        <div>
+            <span><a href="/projects">Projects</a></span>
+        </div>
+        <div>
+            <span><a href="//about.me/apsdehal">About</a></span>
+        </div>
+        <div>
+            <span><a href="//twitter.com/apsdehal">Twitter</a></span>
+        </div>
+        <div>
+            <span><a href="/resume.pdf">Resume</a></span>
+        </div>
+        <div>
+            <span><a href="mailto:me@apsdehal.in">Email</a></span>
+        </div>
+    </div>
 </div>
