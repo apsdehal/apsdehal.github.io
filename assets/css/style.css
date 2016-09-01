@@ -33,7 +33,7 @@ html {
 }
 
 body {
-	font: 100% "Calluna", Times, serif;
+	font: 1em "Calluna", Times, serif;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -43,17 +43,37 @@ body {
 	background-color: #caebf2;
 	height: 20px;
 	margin-top: 10px;
+	-webkit-animation: fadein 2s;
+	-moz-animation: fadein 2s;
+	-ms-animation: fadein 2s;
+	-o-animation: fadein 2s;
+	animation: fadein 2s;
+	/* Keyframes defined in last */
 }
+
 
 .name {
 	text-transform: capitalize;
 	color: #ff3b3f;
-	font-size: 200%;
+	font-size: 2.2em;
+}
+
+.name a {
+	color: #ff3b3f;
 }
 
 a {
 	text-decoration: none;
 
+}
+
+
+p {
+	color: #333;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #333;
 }
 
 a:visited {
@@ -67,6 +87,7 @@ a:visited {
 
 .social-links {
 	margin-top: 10px;
+	font-size: 1.1em;
 	overflow: auto;
 }
 .social-links div {
@@ -77,7 +98,9 @@ a:visited {
 
 .main-container {
 	margin-top: 20px;
-	width: 80%;
+	width: 85%;
+	line-height: 1.5;
+	letter-spacing: 0.004em;
 	text-align: left;
 	overflow: auto;
 	margin: 0 auto;
@@ -92,7 +115,7 @@ a:visited {
 }
 
 .bigger {
-	font-size: 150%;
+	font-size: 1.5em;
 }
 
 .posts-list {
@@ -102,4 +125,276 @@ a:visited {
 .post-item {
 	margin-top: 10px;
 	display: block;
+}
+
+.blog .shift-right {
+	float: right;
+}
+
+.blog .posts {
+	margin-top: 40px;
+	width: 85%;
+	margin: 0 auto;
+	font-size: 1.1em;
+	margin-bottom: 20px;
+}
+
+.blog .posts-list {
+	text-align: left;
+}
+
+.blog .post-item {
+	margin-top: 20px;
+}
+
+.blog .not-visible-on-mobile {
+	display: none;
+}
+
+/**
+ * Styles for blog post starts here
+ */
+
+.post .container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.post .main-post {
+	text-align: left;
+	font-size: 1em;
+	line-height: 1.5;
+	letter-spacing: .004em;
+}
+
+.post .description {
+	color: #666;
+	font-size: 1.4em;
+}
+
+.post > * {
+	margin-top: 21px;
+}
+
+.post .content > :nth-child(2) {
+	margin-top: -20px;
+}
+
+.post .follow {
+	margin-top: -20px;
+}
+
+.post ul,ol {
+	padding-left: 20px;
+}
+
+.post pre {
+	padding: 10px;
+	background-color: #666;
+	color: #caebf2;
+	width: 100%;
+	white-space: pre-wrap;
+}
+
+.post p {
+	color: #333;
+}
+
+.post h1,h2,h3,h4,h5,h6 {
+	color: #333;
+}
+
+.post blockquote {
+	border-left: 10px solid #caebf2;
+	margin-left: 10px;
+	font-style: italic;
+	padding-left: 20px;
+}
+
+.post ol li {
+	margin-top: 20px;
+}
+
+.post .fb-like {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@media only screen and (min-width: 768px) {
+	body {
+		font-size: 1.1em;
+	}
+
+	.social-links {
+		margin-top: 20px;
+		font-size: 1.1em;
+	}
+
+	.post .container {
+		width: 60%;
+	}
+
+	.name {
+		font-size: 2.5em;
+	}
+
+	.horizontal-bar {
+		margin-top: 15px;
+		height: 20px;
+	}
+
+	.info-container {
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+
+	.main-container {
+		width: 60%;
+		margin-top: 30px;
+	}
+
+	.blog .not-visible-on-mobile {
+		display: inline;
+	}
+
+	.blog .posts {
+		margin-top: 40px;
+		width: 75%;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	body {
+		font-size: 1.2em;
+	}
+
+	.social-links {
+		margin-top: 25px;
+	}
+
+	.horizontal-bar {
+		margin-top: 20px;
+		height: 20px;
+	}
+
+	.post .container {
+		width: 50%;
+	}
+
+	.name {
+		font-size: 3em;
+	}
+
+	.info-container {
+		margin-top: 30px;
+		width: 50%;
+	}
+
+	.social-links div {
+		width: 16.66%;
+	}
+
+	.main-container {
+		margin-top: 30px;
+		font-size: 0.95em;
+		width: 50%;
+	}
+
+	.about {
+		width: 60%;
+		float: left;
+	}
+
+	.posts {
+		margin-left: 2%;
+		width: 38%;
+		float: left;
+	}
+
+	.blog .posts {
+		width: 70%;
+		margin: 0 auto;
+		margin-bottom: 40px;
+		float: none;
+		margin-top: 50px;
+	}
+
+	.blog .post-item {
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (min-width: 1439px) {
+	.horizontal-bar {
+		margin-top: 25px;
+		height: 25px;
+	}
+
+	body {
+		font-size: 1.3em;
+	}
+
+	.social-links {
+		margin-top: 30px;
+	}
+
+	.info-container {
+		margin-top: 40px;
+		width: 50%;
+	}
+
+	.main-container {
+		width: 50%;
+		margin-top: 40px;
+	}
+
+	.blog .posts {
+		width: 50%;
+	}
+
+
+}
+
+@media only screen and (min-width: 1600px) {
+	.horizontal-bar {
+		margin-top: 30px;
+		height: 30px;
+	}
+
+	.info-container {
+		margin-top: 50px;
+		width: 40%;
+	}
+
+	.main-container {
+		width: 40%;
+		margin-top: 50px;
+	}
+
+	.blog .posts {
+		width: 40%;
+	}
+
 }
