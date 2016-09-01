@@ -1,0 +1,13 @@
+<div class="about">
+	<div class="section-heading bigger"><span>about</span></div>
+	<div>
+		<p>I'm a software engineer that loves to build products which have make
+		an impact on world.</p>
+		<p>Previously, I've interned at Google Summer of Code program (three times), The Climate Corporation,
+		and Wingify.</p>
+		<p>I'm also a graduate student at New York University (Courant), where
+		my major is computer science. I am a team member of various open source organizations including jQuery and WikiMedia foundations and actively contribute to a lot of projects on Github.</p>
+
+		<p>You can checkout my <a href="projects">projects</a> and latest <a href="resume.pdf">resume</a></p>
+	</div>
+</div>
