@@ -10,12 +10,13 @@ class: projects
 	{%include info %}
 	<div class="projects-container">
 		<div class="projects-about">
+			<div class="projects-help">Click any item for more information</div>
 			<div class="project-item">
 				<div class="project-item-small-desc">
 					<div class="project-item-name">jQuery Mobile</div>
 					<div class="project-item-org">jQuery Foundation</div>
-				</div class="project-item-meta">
-				<div>
+				</div>
+				<div class="project-item-meta">
 					<div class="project-item-year">2014 - to date</div>
 					<div class="project-item-location">Remote</div>
 				</div>
@@ -31,8 +32,8 @@ class: projects
 				<div class="project-item-small-desc">
 					<div class="project-item-name">Muzi Web Player</div>
 					<div class="project-item-org">SDSLabs</div>
-				</div class="project-item-meta">
-				<div>
+				</div>
+				<div  class="project-item-meta">
 					<div class="project-item-location">Roorkee</div>
 					<div class="project-item-year">2014 - 2016</div>
 				</div>
@@ -46,8 +47,8 @@ class: projects
 			</div>
 			<div class="project-item">
 				<div class="project-item-small-desc">
-					<div class="project-item-name">Flappy Bird Automation using RL and Servo Motor</div>
-					<div class="project-item-org">IIT Roorkee</div>
+					<div class="project-item-name">FlappyBird RL Servo Automation</div>
+					<div class="project-item-org">IITR</div>
 				</div>
 				<div class="project-item-meta">
 					<div class="project-item-location">Roorkee</div>
@@ -65,8 +66,8 @@ class: projects
 				<div class="project-item-small-desc">
 					<div class="project-item-name">Github Projects and Libraries</div>
 					<div class="project-item-org">Github</div>
-				</div class="project-item-meta">
-				<div>
+				</div>
+				<div class="project-item-meta">
 					<div class="project-item-location">Remote</div>
 					<div class="project-item-year">2013 - to date</div>
 				</div>
@@ -83,8 +84,8 @@ class: projects
 				<div class="project-item-small-desc">
 					<div class="project-item-name">Lissom</div>
 					<div class="project-item-org">The Climate Corporation</div>
-				</div class="project-item-meta">
-				<div>
+				</div>
+				<div class="project-item-meta">
 					<div class="project-item-location">San Francisco</div>
 					<div class="project-item-year">2015</div>
 				</div>
@@ -100,8 +101,8 @@ class: projects
 				<div class="project-item-small-desc">
 					<div class="project-item-name">Backdoor - CTF</div>
 					<div class="project-item-org">SDSLabs</div>
-				</div class="project-item-meta">
-				<div>
+				</div>
+				<div class="project-item-meta">
 					<div class="project-item-location">Roorkee</div>
 					<div class="project-item-year">2014 - 2016</div>
 				</div>
@@ -116,8 +117,8 @@ class: projects
 				<div class="project-item-small-desc">
 					<div class="project-item-name">Experiences</div>
 					<div class="project-item-org">SDSLabs</div>
-				</div class="project-item-meta">
-				<div>
+				</div>
+				<div class="project-item-meta">
 					<div class="project-item-location">Roorkee</div>
 					<div class="project-item-year">2013</div>
 				</div>
@@ -133,8 +134,8 @@ class: projects
 				<div class="project-item-small-desc">
 					<div class="project-item-name">BBM CMS</div>
 					<div class="project-item-org">Bed Bath More (India)</div>
-				</div class="project-item-meta">
-				<div>
+				</div>
+				<div class="project-item-meta">
 					<div class="project-item-location">Remote</div>
 					<div class="project-item-year">2016</div>
 				</div>
@@ -149,8 +150,8 @@ class: projects
 				<div class="project-item-small-desc">
 					<div class="project-item-name">QUnit Migrate</div>
 					<div class="project-item-org">jQuery Foundation</div>
-				</div class="project-item-meta">
-				<div>
+				</div>
+				<div class="project-item-meta">
 					<div class="project-item-location">Remote</div>
 					<div class="project-item-year">2015</div>
 				</div>
@@ -165,8 +166,8 @@ class: projects
 				<div class="project-item-small-desc">
 					<div class="project-item-name">Scrollmaps</div>
 					<div class="project-item-org">Wingify</div>
-				</div class="project-item-meta">
-				<div>
+				</div>
+				<div class="project-item-meta">
 					<div class="project-item-location">Delhi</div>
 					<div class="project-item-year">2014</div>
 				</div>
@@ -179,10 +180,10 @@ class: projects
 			</div>
 			<div class="project-item">
 				<div class="project-item-small-desc">
-					<div class="project-item-name">Wikidata Web Annotator</div>
+					<div class="project-item-name">Web Annotator</div>
 					<div class="project-item-org">WikiMedia Foundation</div>
-				</div class="project-item-meta">
-				<div>
+				</div>
+				<div class="project-item-meta">
 					<div class="project-item-location">Remote</div>
 					<div class="project-item-year">2013</div>
 				</div>
@@ -197,8 +198,8 @@ class: projects
 				<div class="project-item-small-desc">
 					<div class="project-item-name">Play - DJ software</div>
 					<div class="project-item-org">SDSLabs</div>
-				</div class="project-item-meta">
-				<div>
+				</div>
+				<div class="project-item-meta">
 					<div class="project-item-location">Roorkee</div>
 					<div class="project-item-year">2013</div>
 				</div>

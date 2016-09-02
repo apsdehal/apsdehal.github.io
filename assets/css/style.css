@@ -222,6 +222,7 @@ a:visited {
 	margin-bottom: 0 !important;
 }
 
+/** Projects section */
 .projects .projects-container {
 	width: 85%;
 	margin: 0 auto;
@@ -229,6 +230,41 @@ a:visited {
 	font-size: 1em;
 	line-height: 1.5;
 	letter-spacing: .004em;
+	margin-top: 40px;
+}
+
+.projects .project-item {
+	border-bottom: 1px solid #aaa;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	overflow: auto;
+}
+
+.projects .projects-help {
+	text-align: center;
+}
+
+.projects .project-item-small-desc, .project-item-meta {
+	clear: both;
+}
+.projects .project-item-name, .project-item-year {
+	/*width: 50%;*/
+	float: left;
+}
+
+.projects .project-item-name {
+	font-weight: bold;
+}
+.projects .project-item-org, .project-item-location {
+	/*width: 50%;*/
+	float: right;
+	text-align: right;
+}
+
+.projects .project-item-description {
+	padding-top: 20px;
+	display: none;
+	float: left;
 }
 
 @keyframes fadein {
@@ -294,6 +330,10 @@ a:visited {
 		margin-top: 40px;
 		width: 75%;
 	}
+
+	.projects .projects-container {
+		width: 60%;
+	}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -355,6 +395,10 @@ a:visited {
 	.blog .post-item {
 		margin-top: 30px;
 	}
+
+	.projects .projects-container {
+		width: 50%;
+	}
 }
 
 @media only screen and (min-width: 1439px) {
@@ -408,4 +452,7 @@ a:visited {
 		width: 40%;
 	}
 
+	.projects .projects-container {
+		width: 40%;
+	}
 }
