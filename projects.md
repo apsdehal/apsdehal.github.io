@@ -58,7 +58,7 @@ class: projects
 					<ul>
 						<li>Designed an architecture for creating software that intelligently play legacy games using human like hardware</li>
 						<li>Trained servo motor powered arm using RL (Q-Learning) to automatically play flappy bird</li>
-						<li>Developed as a part of undergraduate final project.<a href="https://github.com/apsdehal/Flappy-Bird-Servo-Automation">Source code</a></li>
+						<li>Developed as a part of undergraduate final project. <a href="https://github.com/apsdehal/Flappy-Bird-Servo-Automation">Source code</a></li>
 					</ul>
 				</div>
 			</div>
@@ -109,7 +109,7 @@ class: projects
 				<div class="project-item-description">
 					<ul>
 						<li>Designed various Capture the Flag (CTF) challenges for Backdoor CTF platform which has 8k weekly users in the categories of Forensics, Web Penetration, Exploit and Steganography</li>
-						<li>These challenges are available to be solved <a href="https://backdoor.sdslabs.co/users/apsdehal">here</a>
+						<li>These challenges are available to be solved <a href="https://backdoor.sdslabs.co/users/apsdehal">here</a></li>
 					</ul>
 				</div>
 			</div>
