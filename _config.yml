@@ -1,7 +1,7 @@
 production_url: http://apsdehal.in
 permalink: /blog/:title
 highlighter: rouge
-markdown: rdiscount
+markdown: kramdown
 sass:
   style: compressed
   sass_dir: assets/css
