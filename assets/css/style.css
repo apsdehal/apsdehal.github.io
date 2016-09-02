@@ -1,3 +1,13 @@
+/* Color Scheme */
+/* Use your editor to replace and match them all */
+
+/*
+ * Primary color: #ff533d;
+ * Secondary color: #0f1626;
+ * Background color: #f5f5f5;
+ * Text Color: #0f1626;
+ */
+
 /* Icons */
 @font-face {
   font-family: 'icons';
@@ -29,7 +39,7 @@
 }
 
 html {
-    background-color: #efefef;
+    background-color: #f5f5f5;
 }
 
 body {
@@ -40,7 +50,7 @@ body {
 
 .horizontal-bar {
 	width: 100%;
-	background-color: #caebf2;
+	background-color: #0f1626;
 	height: 20px;
 	margin-top: 10px;
 	-webkit-animation: fadein 2s;
@@ -51,34 +61,43 @@ body {
 	/* Keyframes defined in last */
 }
 
-
-.name {
-	text-transform: capitalize;
-	color: #ff3b3f;
-	font-size: 2.2em;
-}
-
-.name a {
-	color: #ff3b3f;
-}
-
 a {
+	color: #ab987a;
 	text-decoration: none;
+}
 
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #ab987a;
 }
 
 
 p {
-	color: #333;
+	color: #0f1626;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	color: #333;
+	color: #0f1626;
 }
 
-a:visited {
-	color: ;
+.name {
+	text-transform: capitalize;
+	color: #ff533d;
+	font-size: 2.2em;
 }
+
+.name a {
+	color: #ff533d;
+	text-decoration: none;
+}
+
+.name a:hover {
+	text-decoration: none;
+}
+
 
 .info-container {
 	margin-top: 20px;
@@ -90,10 +109,26 @@ a:visited {
 	font-size: 1.1em;
 	overflow: auto;
 }
+
+.social-links a {
+	overflow: auto;
+}
+
+.social-links a:hover {
+	text-decoration: none;
+}
+
+.social-links div:hover {
+	border-bottom: 2px solid #ff533d;
+}
+
 .social-links div {
+	overflow: auto;
 	float: left;
 	margin-top: 5px;
 	width: 33.33%;
+	padding-bottom: 4px;
+	border-bottom: 2px solid transparent;
 }
 
 .main-container {
@@ -113,7 +148,7 @@ a:visited {
 	text-align: center;
 	margin-top: 25px;
 	text-transform: capitalize;
-	color: #ff3b3f;
+	color: #ff533d;
 }
 
 .bigger {
@@ -122,6 +157,14 @@ a:visited {
 
 .posts-list {
 	margin-top: 20px;
+}
+
+.posts-list a {
+	color: #0f1626;
+}
+
+.posts-list a:hover {
+	text-decoration: underline;
 }
 
 .post-item {
@@ -193,21 +236,21 @@ a:visited {
 .post pre {
 	padding: 10px;
 	background-color: #666;
-	color: #caebf2;
+	color: #eee;
 	width: 100%;
 	white-space: pre-wrap;
 }
 
 .post p {
-	color: #333;
+	color: #0f1626;
 }
 
 .post h1,h2,h3,h4,h5,h6 {
-	color: #333;
+	color: #0f1626;
 }
 
 .post blockquote {
-	border-left: 10px solid #caebf2;
+	border-left: 10px solid #0f1626;
 	margin-left: 10px;
 	font-style: italic;
 	padding-left: 20px;
@@ -238,6 +281,7 @@ a:visited {
 	padding-bottom: 10px;
 	padding-top: 20px;
 	overflow: auto;
+	cursor: pointer;
 }
 
 .projects .projects-help {
@@ -253,8 +297,9 @@ a:visited {
 }
 
 .projects .project-item-name {
-	font-weight: bold;
+	color: #ff533d;
 }
+
 .projects .project-item-org, .project-item-location {
 	/*width: 50%;*/
 	float: right;
@@ -425,6 +470,10 @@ a:visited {
 		margin-top: 40px;
 	}
 
+	.post .container {
+		width: 40%;
+	}
+
 	.blog .posts {
 		width: 50%;
 	}
@@ -446,10 +495,6 @@ a:visited {
 	.main-container {
 		width: 40%;
 		margin-top: 50px;
-	}
-
-	.blog .posts {
-		width: 40%;
 	}
 
 	.projects .projects-container {
