@@ -105,6 +105,8 @@ a:visited {
 	overflow: auto;
 	margin: 0 auto;
 	margin-bottom: 20px;
+	border-bottom: 1px solid #aaa;
+	padding-bottom: 10px;
 }
 
 .section-heading {
@@ -218,6 +220,15 @@ a:visited {
 .post .fb-like {
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
+}
+
+.projects .projects-container {
+	width: 85%;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 1em;
+	line-height: 1.5;
+	letter-spacing: .004em;
 }
 
 @keyframes fadein {

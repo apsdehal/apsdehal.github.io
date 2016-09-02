@@ -1,9 +1,9 @@
 <div class="about">
 	<div class="section-heading bigger"><span>about</span></div>
 	<div>
-		<p>I'm a software engineer that loves to build products which have make
-		an impact on world.</p>
-		<p>Previously, I've interned at Google Summer of Code program (jQuery and WikiMedia foundation), The Climate Corporation,
+		<p>I'm a software engineer that loves to build products which make
+		an impact on world. As a team member of <a href="//github.com/jquery">jQuery Foundation</a>, I contribute in maintaining jQuery Mobile and UI.</p>
+		<p>Previously, I've interned at Google Summer of Code program (three times with jQuery and WikiMedia foundation), The Climate Corporation,
 		and Wingify.</p>
 		<p>I'm also a graduate student at New York University (Courant), where
 		my major is computer science.</p>
