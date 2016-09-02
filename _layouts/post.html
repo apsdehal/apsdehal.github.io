@@ -1,38 +1,39 @@
 {% include header %}
+{% include bars %}
 {% include info %}
 <br/>
 <div class="container">
 	<div class="main-post">
-	<div class="top-body">
-		<div class="title">
-		<a href="{{ page.url }}"><h1>{{ page.title }}</h1></a>
+		<div class="top-body">
+			<div class="title">
+			<a href="{{ page.url }}"><h1>{{ page.title }}</h1></a>
+			</div>
+			{% if page.meta %}
+			<p class='description'>{{ page.meta }} </p>
+			{% endif %}
 		</div>
-		{% if page.meta %}
-		<p class='description'>{{ page.meta }} </p>
+		<hr>
+
+		{% if page.date %}
+		<p class='date'><span class='icon-calendar icon--inline'></span> {{ page.date | date: "%B %e, %Y" }}</p>
 		{% endif %}
-	</div>
-	<hr>
+		<div class="content">
+			<p class="fb-like">{% include fblike %}</p>
+			{{ content }}
+			<p class="fb-like"> {% include fblike %} </p>
+		</div>
+		<hr class="follow">
+		<p>Follow me on <a href="http://twitter.com/apsdehal" rel='me'>Twitter</a> and <a href="http://github.com/apsdehal" rel='me'>Github</a>, that's where I'm most active these days.  You can also email me at <a href="mailto:me@apsdehal.in">me@apsdehal.in</a>.  Thanks!</p>
 
-	{% if page.date %}
-	<p class='date'><span class='icon-calendar icon--inline'></span> {{ page.date | date: "%B %e, %Y" }}</p>
-	{% endif %}
-	<div class="content">
-		<p class="fb-like">{% include fblike %}</p>
-		{{ content }}
-		<p class="fb-like"> {% include fblike %} </p>
-	</div>
-	<hr>
-	<p>Follow me on <a href="http://twitter.com/apsdehal" rel='me'>Twitter</a> and <a href="http://github.com/apsdehal" rel='me'>Github</a>, that's where I'm most active these days.  You can also email me at <a href="mailto:me@apsdehal.in">me@apsdehal.in</a>.  Thanks!</p>
+		<p>
+		<iframe src="http://ghbtns.com/github-btn.html?user=apsdehal&amp;type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="20"></iframe>
+		<a href="https://twitter.com/apsdehal" class="twitter-follow-button" data-show-count="false">Follow @apsdehal</a>
+		<script>
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+		</script>
+		</p>
+		{% include discus %}
 
-	<p>
-	<iframe src="http://ghbtns.com/github-btn.html?user=apsdehal&amp;type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="20"></iframe>
-	<a href="https://twitter.com/apsdehal" class="twitter-follow-button" data-show-count="false">Follow @apsdehal</a>
-	<script>
-	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-	</script>
-	</p>
-	{% include discus %}
-
-	{% include footer %}
+		{% include footer %}
 	</div>
 </div>

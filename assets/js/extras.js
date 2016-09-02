@@ -112,3 +112,22 @@ if (typeof document.addEventListener === 'function') {
 		filter();
 	}());
 }
+
+$(function () {
+
+	window.setTimeout(function () {
+		$('.projects-help').toggle(1000);
+	}, 5000);
+
+	$('.project-item').on('click', function (e) {
+
+		var thisItemDescription = $(this).find('.project-item-description');
+		var alreadyOpen = $(this).find('.project-item-description').hasClass('open');
+		var openItem = $('.project-item-description.open');
+		openItem.removeClass('open').slideUp(600);
+
+		if (!alreadyOpen) {
+			thisItemDescription.addClass('open').slideDown(600);
+		}
+	});
+});

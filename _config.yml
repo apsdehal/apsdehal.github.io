@@ -1,7 +1,10 @@
 production_url: http://apsdehal.in
 permalink: /blog/:title
 highlighter: rouge
-markdown: redcarpet
-# RSS
+markdown: rdiscount
+sass:
+  style: compressed
+  sass_dir: assets/css
+# rss
 title: Amanpreet Singh
 description: Development and Views Blog
