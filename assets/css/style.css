@@ -2,10 +2,11 @@
 /* Use your editor to replace and match them all */
 
 /*
- * Primary color: #ff533d;
- * Secondary color: #0f1626;
- * Background color: #f5f5f5;
- * Text Color: #0f1626;
+ * Primary color: #333a56;
+ * Secondary color: #52658f;
+ * Background color: #f7f5e6;
+ * Text Color: #444;
+ * Anchor Color: #466ca0;
  */
 
 /* Icons */
@@ -39,7 +40,7 @@
 }
 
 html {
-    background-color: #f5f5f5;
+    background-color: #f7f5e6;
 }
 
 body {
@@ -50,7 +51,7 @@ body {
 
 .horizontal-bar {
 	width: 100%;
-	background-color: #0f1626;
+	background-color: #52658f;
 	height: 20px;
 	margin-top: 10px;
 	-webkit-animation: fadein 2s;
@@ -62,7 +63,7 @@ body {
 }
 
 a {
-	color: #ab987a;
+	color: #466ca0;
 	text-decoration: none;
 }
 
@@ -71,26 +72,27 @@ a:hover {
 }
 
 a:visited {
-	color: #ab987a;
+	color: #466ca0;
 }
 
 
 p {
-	color: #0f1626;
+	color: #444;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	color: #0f1626;
+	color: #444;
 }
 
 .name {
 	text-transform: capitalize;
-	color: #ff533d;
+	color: #333a56;
 	font-size: 2.2em;
+	border-bottom: 1px solid #52658f;
 }
 
 .name a {
-	color: #ff533d;
+	color: #333a56;
 	text-decoration: none;
 }
 
@@ -119,7 +121,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .social-links div:hover {
-	border-bottom: 2px solid #ff533d;
+	border-bottom: 2px solid #333a56;
 }
 
 .social-links div {
@@ -148,7 +150,11 @@ h1,h2,h3,h4,h5,h6 {
 	text-align: center;
 	margin-top: 25px;
 	text-transform: capitalize;
-	color: #ff533d;
+	color: #333a56;
+}
+
+.section-heading span {
+	border-bottom: 1px solid #52658f;
 }
 
 .bigger {
@@ -160,7 +166,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .posts-list a {
-	color: #0f1626;
+	color: #444;
 }
 
 .posts-list a:hover {
@@ -242,15 +248,15 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .post p {
-	color: #0f1626;
+	color: #444;
 }
 
 .post h1,h2,h3,h4,h5,h6 {
-	color: #0f1626;
+	color: #444;
 }
 
 .post blockquote {
-	border-left: 10px solid #0f1626;
+	border-left: 10px solid #414141;
 	margin-left: 10px;
 	font-style: italic;
 	padding-left: 20px;
@@ -297,7 +303,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .projects .project-item-name {
-	color: #ff533d;
+	color: #333a56;
 }
 
 .projects .project-item-org, .project-item-location {

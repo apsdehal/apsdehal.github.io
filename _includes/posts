@@ -1,5 +1,5 @@
 <div class="posts">
-    <div class="section-heading bigger">posts</div>
+    <div class="section-heading bigger"><span>posts</span></div>
     <div class="posts-list">
         {% for post in site.posts limit: 5 %}
         <a class="post-item" href="{{ post.url }}">{{ post.title }}</a>
