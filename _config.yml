@@ -1,4 +1,4 @@
-production_url: http://apsdehal.in
+production_url: https://apsdehal.in
 permalink: /blog/:title
 highlighter: rouge
 markdown: kramdown
