@@ -52,4 +52,4 @@ We are recruiting this January. Visit [join.sdslabs.co](http://join.sdslabs.co) 
 - Try to find a bug in one of our applications, make sure to mention it in written exam. Just write it on the last page.
 - Willingness to learn is more important than CG, branch and technical prowess.
 
-Lab has become an important part of my life maybe it will become yours too. If you feel like SDSLabs is where you should be, just come and give our test. If you have any kind of queries, come [chat](chat.sdslabs.co) with us.
+Lab has become an important part of my life maybe it will become yours too. If you feel like SDSLabs is where you should be, just come and give our test. If you have any kind of queries, come [chat](http://chat.sdslabs.co) with us.
