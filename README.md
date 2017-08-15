@@ -1,8 +1,8 @@
-#SpookOut
+# SpookOut
 
 My personal Jekyll powered blog
 
-#Dependecies
+# Dependecies
 
 Bootstrap
 
