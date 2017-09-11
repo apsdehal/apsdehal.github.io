@@ -251,7 +251,7 @@ hr {
 	white-space: pre-wrap;
 }
 
-.post p {
+.post p,li {
 	color: #444;
 }
 
