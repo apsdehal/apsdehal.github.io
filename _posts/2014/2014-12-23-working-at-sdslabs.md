@@ -38,7 +38,7 @@ For a lot of us SDSLabs is a home away from home. No matter what you want to dis
 
 At SDSLabs, we use a plethora of technology. While most of lab projects are built upon PHP, MySQL and JavaScript stack, we have also explored many other areas. Many subprojects have been built in Node.js and Go. Python is also extensively used for writing scripts.
 
-We use [Slack](https://slack.com) and Google Groups to keep in touch. If you want more insight into how lab works go through [this post] (http://blog.sdslabs.co/2012/12/how-does-sdslabs-work/) _(it is slightly outdated)_.
+We use [Slack](https://slack.com) and Google Groups to keep in touch. If you want more insight into how lab works go through [this post](http://blog.sdslabs.co/2012/12/how-does-sdslabs-work/) _(it is slightly outdated)_.
 
 ### Fun
 

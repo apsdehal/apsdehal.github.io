@@ -20,7 +20,7 @@ So let me get you straight through some basics of Git so that I can really make 
 
 I will explain this in the layman language. Ever seen the different vesions of Windows like 7 and 8, just imagine that Git helps you having a control on different vesions like these for a particular software. Git helps you easily switch back and forth between them, make changes, even switch between these changes. Just for a better scene, think of Git as a camera that takes a snapshot of how your code looks like for the moment when you call a certain command, and that you can easily switch back and check this snapshot when ever you want.
 
-###What is Github?
+### What is Github?
 
 > GitHub is the best place to build software together
 
@@ -36,7 +36,7 @@ Now the snapshot we were talking all the way long is called commit in Git langua
 
 You start right here, right at moment I will cover up the basics of Git in this blog post.
 
-###Commands: 
+### Commands: 
 - **git init**
 
 This command is used to intialize version control on a software. From now on, I will call software a repository. Now go to the directory through command line where your repository is. Now enter
@@ -126,7 +126,7 @@ You can always list your branches by
 git branch
 ```
 
-###Where to now?
+### Where to now?
 
 This is more than enough to get you started, I have almost covered up all of the most used commands in Git. For further reading you can use these resources:
 
