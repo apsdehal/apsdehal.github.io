@@ -4,6 +4,7 @@ markdown: kramdown
 kramdown:
     input: GFM
     syntax_highlighter: rouge
+    math_engine: mathjax
 # rss
 title: Amanpreet Singh
 description: Development and Views Blog
