@@ -117,7 +117,7 @@ $(function () {
 
 	window.setTimeout(function () {
 		$('.projects-help').toggle(1000);
-	}, 5000);
+	}, 10000);
 
 	$('.project-item').on('click', function (e) {
 

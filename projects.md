@@ -10,7 +10,7 @@ class: projects
 	{%include info %}
 	<div class="projects-container">
 		<div class="projects-about">
-			<div class="projects-help">Click any item for more information</div>
+			<div class="projects-help">Click any item for more information. This section is old and needs update. Check my Github for most of the projects I am currently working on.</div>
 			<div class="project-item">
 				<div class="project-item-small-desc">
 					<div class="project-item-name">jQuery Mobile</div>
