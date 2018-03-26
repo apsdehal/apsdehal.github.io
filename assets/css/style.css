@@ -266,6 +266,10 @@ hr {
 	padding-left: 20px;
 }
 
+.post p img {
+        width: 100%;
+}
+
 .post ol li {
 	margin-top: 20px;
 }
