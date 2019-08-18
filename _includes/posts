@@ -1,7 +1,7 @@
 <div class="posts">
-    <div class="section-heading bigger"><span>posts</span></div>
+    <div class="section-heading bigger"><span>recent posts</span></div>
     <div class="posts-list">
-        {% for post in site.posts limit: 5 %}
+        {% for post in site.posts limit: 3 %}
         <a class="post-item" href="{{ post.url }}">{{ post.title }}</a>
         {% endfor %}
         <a class="post-item" href="blog">More >>></a>

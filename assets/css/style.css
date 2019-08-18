@@ -40,7 +40,7 @@
 }
 
 html {
-    background-color: #f7f5e6;
+    background-color: #fff;
 }
 
 body {
@@ -52,8 +52,8 @@ body {
 .horizontal-bar {
 	width: 100%;
 	background-color: #52658f;
-	height: 20px;
-	margin-top: 10px;
+	height: 10px;
+	margin-top: 0px;
 	-webkit-animation: fadein 2s;
 	-moz-animation: fadein 2s;
 	-ms-animation: fadein 2s;
@@ -84,6 +84,10 @@ h1,h2,h3,h4,h5,h6 {
 	color: #444;
 }
 
+.info {
+	text-align: left;
+}
+
 .name {
 	text-transform: capitalize;
 	color: #333a56;
@@ -104,16 +108,22 @@ hr {
 	text-decoration: none;
 }
 
+.container {
+	margin-top: 20px;
+}
 
 .info-container {
 	margin-top: 20px;
 	overflow: auto;
+	width: 85%;
+	margin: 0 auto;
 }
 
 .social-links {
 	margin-top: 10px;
-	font-size: 1.1em;
+	font-size: 0.95em;
 	overflow: auto;
+	text-align: left;
 }
 
 .social-links a {
@@ -132,8 +142,8 @@ hr {
 	overflow: auto;
 	float: left;
 	margin-top: 5px;
-	width: 33.33%;
 	padding-bottom: 4px;
+	margin-right: 15px;
 	border-bottom: 2px solid transparent;
 }
 
@@ -150,8 +160,16 @@ hr {
 	padding-bottom: 10px;
 }
 
+.about {
+	text-align: justify;
+}
+
+.avatar {
+	width: 100%;
+}
+
 .section-heading {
-	text-align: center;
+	text-align: left;
 	margin-top: 25px;
 	text-transform: capitalize;
 	color: #333a56;
@@ -326,6 +344,78 @@ hr {
 	float: left;
 }
 
+.publications {
+	display: block;
+	position: relative;
+	float: left;
+	margin-top: 20px;
+	padding-top: 25px;
+	border-top: 1px solid #52658f;
+}
+
+.posts {
+	display: block;
+	position: relative;
+	float: left;
+	margin-top: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 100%;
+	border-top: 1px solid #52658f;
+}
+
+.about {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.publications .post-item {
+	margin-top: 40px;
+}
+
+.publications .publication-title {
+	font-weight: 700;
+}
+
+.publications .publication-authors {
+	color: #444;
+	font-size: 0.8em;
+}
+
+.publications .publication-authors b {
+	color: #111;
+}
+
+.publications .publication-venue {
+	color: #466ca0;
+	font-size: 0.9em;
+}
+
+.publications a {
+	border: none !important;
+	cursor: pointer;
+}
+
+.publications a:hover {
+	text-decoration: none;
+	border: none !important;
+}
+
+.publications button {
+	background-color: #466ca0;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.pic {
+	display: block;
+	margin-top: 25px;
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -354,7 +444,7 @@ hr {
 
 	.social-links {
 		margin-top: 20px;
-		font-size: 1.1em;
+		font-size: 0.95em;
 	}
 
 	.post .container {
@@ -366,8 +456,8 @@ hr {
 	}
 
 	.horizontal-bar {
-		margin-top: 15px;
-		height: 20px;
+		margin-top: 0px;
+		height: 10px;
 	}
 
 	.info-container {
@@ -405,8 +495,8 @@ hr {
 	}
 
 	.horizontal-bar {
-		margin-top: 20px;
-		height: 20px;
+		margin-top: 0px;
+		height: 10px;
 	}
 
 	.post .container {
@@ -423,7 +513,8 @@ hr {
 	}
 
 	.social-links div {
-		width: 16.66%;
+		/* width: 16.66%; */
+		margin-right: 20px;
 	}
 
 	.main-container {
@@ -432,14 +523,26 @@ hr {
 		width: 50%;
 	}
 
-	.about {
-		width: 60%;
+	.intro {
 		float: left;
+		margin-right: 2%;
+		width: 58%;
+	}
+
+	.intro p {
+		margin-top: 5px;
+		margin-bottom: 5px;
 	}
 
 	.posts {
-		margin-left: 2%;
-		width: 38%;
+		display: block;
+		position: relative;
+		float: left;
+	}
+
+	.pic {
+		margin-right: 4%;
+		width: 30%;
 		float: left;
 	}
 
@@ -462,8 +565,8 @@ hr {
 
 @media only screen and (min-width: 1439px) {
 	.horizontal-bar {
-		margin-top: 25px;
-		height: 25px;
+		margin-top: 0px;
+		height: 10px;
 	}
 
 	body {
@@ -497,8 +600,8 @@ hr {
 
 @media only screen and (min-width: 1600px) {
 	.horizontal-bar {
-		margin-top: 30px;
-		height: 30px;
+		margin-top: 0px;
+		height: 10px;
 	}
 
 	.info-container {

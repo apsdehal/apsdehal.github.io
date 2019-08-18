@@ -1,0 +1,78 @@
+- title: "SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems"
+  authors: Alex Wang<sup>*</sup>, Yada Pruksachatkun<sup>*</sup>, Nikita Nangia<sup>*</sup>, <b>Amanpreet Singh<sup>*</sup></b>, Julian Michael, Felix Hill, Omer Levy, Samuel R. Bowman
+  venue: arXiV
+  year: 2019
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/1905.00537
+    - title: Benchmark
+      url: https://super.gluebenchmark.com
+    - title: Code
+      url: https://github.com/nyu-mll/jiant
+  thumbnail:
+- title: Towards VQA Models That Can Read
+  authors: <b>Amanpreet Singh</b>, Vivek Natarajan, Meet Shah, Yu Jiang, Xinlei Chen, Dhruv Batra, Devi Parikh, Marcus Rohrbach
+  venue: CVPR
+  year: 2019
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/1904.08920
+    - title: Website/Dataset
+      url: https://textvqa.org
+    - title: Code
+      url: https://github.com/facebookresearch/pythia
+- title: Learning When to Communicate at Scale in Multiagent Cooperative and Competitive tasks
+  authors: <b>Amanpreet Singh</b>*, Tushar Jain*, Sainbayar Sukhbaatar
+  venue: ICLR
+  year: 2019
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/1812.09755
+    - title: Code
+      url: https://github.com/IC3Net/IC3Net
+- title: Learning Dynamics Model in Reinforcement Learning by Incorporating the Long Term Future
+  authors: Nan Rosemary Ke, <b>Amanpreet Singh</b>, Ahmed Touati, Anirudh Goyal, Yoshua Bengio, Devi Parikh, Dhruv Batra
+  venue: ICLR
+  year: 2019
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/1903.01599
+    - title: Code
+      url: https://github.com/facebookresearch/modeling_long_term_future/
+- title: "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding"
+  authors: Alex Wang, <b>Amanpreet Singh</b>, Julian Michael, Felix Hill, Omer Levy, Samuel R. Bowman
+  venue: ICLR
+  year: 2019
+  links:
+    - title: Paper
+      url: https://openreview.net/pdf?id=rJ4km2R5t7
+    - title: Website
+      url: https://gluebenchmark.com
+    - title: Code
+      url: https://github.com/nyu-mll/GLUE-Baselines
+- title: "Pythia: A platform for vision & language research"
+  authors: <b>Amanpreet Singh</b>, Vivek Natarajan, Yu Jiang, Xinlei Chen, Meet Shah, Marcus Rohrbach, Dhruv Batra, Devi Parikh
+  venue: SysML Workshop, NeurIPS
+  year: 2019
+  links:
+    - title: Code
+      url: https://github.com/facebookresearch/pythia
+- title: "Neural Network Acceptability Judgments"
+  authors: Alex Warstadt, <b>Amanpreet Singh</b>, Samuel R. Bowman
+  venue: arXiV
+  year: 2018
+  links:
+    - title: Dataset
+      url: https://nyu-mll.github.io/CoLA
+    - title: Paper
+      url: https://arxiv.org/abs/1805.12471
+    - title: Code
+      url: https://github.com/nyu-mll/CoLA-Baselines
+- title: "CanvasGAN: A simple baseline for text to image generation by incrementally patching a canvas"
+  authors: <b>Amanpreet Singh</b>, Sharan Agrawal
+  venue: CVC
+  year: 2019
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/1810.02833v1
+

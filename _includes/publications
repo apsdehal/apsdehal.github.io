@@ -1,0 +1,27 @@
+<div id="publications" class="publications">
+    <div class="section-heading bigger"><span>Publications</span></div>
+    <div class="posts-list">
+        {% for publication in site.data.publications %}
+            <div class="post-item">
+                <div class="publication-title">
+                    {{ publication.title }}
+                </div>
+                <div class="publication-authors">
+                    {{ publication.authors }}
+                </div>
+                <div class="publication-venue">
+                    {{ publication.venue }} {{ publication.year }}
+                </div>
+                <div>
+                    {% for link in publication.links %}
+                        <a target="_blank" title="{{ link.title }}" href="{{ link.url }}">
+                            <button>
+                                {{ link.title }}
+                            </button>
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>

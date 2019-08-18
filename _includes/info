@@ -9,10 +9,16 @@
             <span><a href="//github.com/apsdehal">Github</a></span>
         </div>
         <div>
-            <span><a href="/projects">Projects</a></span>
+            <span><a href="//scholar.google.com/citations?user=aWiMKLsAAAAJ&hl=en">Google Scholar</a></span>
         </div>
         <div>
-            <span><a href="//about.me/apsdehal">About</a></span>
+            <span><a href="#publications">Publications</a></span>
+        </div>
+        <div>
+            <span><a href="blog">Posts</a></span>
+        </div>
+        <div>
+            <span><a href="resume.pdf">CV</a></span>
         </div>
         <div>
             <span><a href="//twitter.com/apsdehal">Twitter</a></span>
