@@ -228,12 +228,7 @@ hr {
  * Styles for blog post starts here
  */
 
-.post .container {
-	width: 85%;
-	margin: 0 auto;
-}
-
-.post .main-post {
+.post .main-container {
 	text-align: left;
 	font-size: 1em;
 	line-height: 1.5;
@@ -243,10 +238,6 @@ hr {
 .post .description {
 	color: #666;
 	font-size: 1.4em;
-}
-
-.post > * {
-	margin-top: 21px;
 }
 
 .post .content > :nth-child(2) {
@@ -407,6 +398,10 @@ hr {
 	background-color: #466ca0;
 	border: 1px solid transparent;
 	border-radius: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 4px;
 	color: #fff;
 	cursor: pointer;
 }
