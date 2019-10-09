@@ -1,6 +1,6 @@
 - title: "SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems"
   authors: Alex Wang<sup>*</sup>, Yada Pruksachatkun<sup>*</sup>, Nikita Nangia<sup>*</sup>, <b>Amanpreet Singh<sup>*</sup></b>, Julian Michael, Felix Hill, Omer Levy, Samuel R. Bowman
-  venue: arXiV
+  venue: NeurIPS (Spotlight)
   year: 2019
   links:
     - title: Paper
@@ -59,7 +59,7 @@
       url: https://github.com/facebookresearch/pythia
 - title: "Neural Network Acceptability Judgments"
   authors: Alex Warstadt, <b>Amanpreet Singh</b>, Samuel R. Bowman
-  venue: arXiV
+  venue: TACL, EMNLP (Oral) - 2019
   year: 2018
   links:
     - title: Dataset
