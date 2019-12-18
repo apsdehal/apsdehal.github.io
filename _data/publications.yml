@@ -1,3 +1,11 @@
+- title: "Iterative Answer Prediction with Pointer-Augmented Multimodal Transformers for TextVQA"
+  authors: Ronghang Hu, <b>Amanpreet Singh</b>, Trevor Darrell, Marcus Rohrbach
+  venue: arXiV
+  year: 2019
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/1911.06258
+  thumbnail:
 - title: "SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems"
   authors: Alex Wang<sup>*</sup>, Yada Pruksachatkun<sup>*</sup>, Nikita Nangia<sup>*</sup>, <b>Amanpreet Singh<sup>*</sup></b>, Julian Michael, Felix Hill, Omer Levy, Samuel R. Bowman
   venue: NeurIPS (Spotlight)
