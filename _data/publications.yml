@@ -1,11 +1,106 @@
+- title: "Unsupervised Vision-and-Language Pre-training via Retrieval-based Multi-Granular Alignment"
+  authors: Mingyang Zhou<sup>*</sup>, Licheng Yu<sup>*</sup>, <b>Amanpreet Singh</b>, Mengjiao Wang, Zhou Yu, Ning Zhang
+  venue: CVPR
+  year: 2022
+  links: 
+    - title: Paper
+      url: https://arxiv.org/abs/2203.00242
+- title: "FLAVA: A Foundational Language And Vision Alignment Model"
+  authors: <b>Amanpreet Singh<sup>*</sup></b>, Ronghang Hu<sup>*</sup>, Vedanuj Goswami<sup>*</sup>, Guillaume Couairon, Wojciech Galuba, Marcus Rohrbach, Douwe Kiela
+  venue: CVPR
+  year: 2022
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/2112.04482
+- title: "Human-Adversarial Visual Question Answering"
+  authors: Sasha Sheng<sup>*</sup>, <b>Amanpreet Singh<sup>*</sup></b>, Vedanuj Goswami, Jose Alberto Magna, Tristan Thrush, Wojciech Galuba, Devi Parikh, Douwe Kiela
+  venue: NeurIPS
+  year: 2021
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/2106.02280
+    - title: Website
+      url: https://adversarialvqa.org/
+    - title: Play
+      url: https://dynabench.org/tasks/vqa
+- title: "Dynabench: Rethinking benchmarking in NLP"
+  authors: Douwe Kiela, Max Bartolo, Yixin Nie, Divyansh Kaushik, Atticus Geiger, Zhengxuan Wu, 
+    Bertie Vidgen, Grusha Prasad, <b>Amanpreet Singh</b>, Pratik Ringshia, Zhiyi Ma, Tristan Thrush, Sebastian Riedel, 
+    Zeerak Waseem, Pontus Stenetorp, Robin Jia, Mohit Bansal, Christopher Potts, Adina Williams
+  venue: NAACL
+  year: 2021
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/2104.14337
+    - title: Website/Benchmark
+      url: https://dynabench.org
+- title: "UniT: Multimodal MultiTask Learning with a Unified Transformer"
+  authors: Ronghang Hu, <b>Amanpreet Singh</b>
+  venue: ICCV
+  year: 2021
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/2102.10772
+    - title: Code
+      url: https://ronghanghu.com/unit/
+- title: "TextOCR: Towards large-scale end-to-end reasoning for arbitrary-shaped scene text"
+  authors: <b>Amanpreet Singh<sup>*</sup></b>, Guan Pang<sup>*</sup>, Mandy Toh<sup>*</sup>, Jing Huang, Wojciech Galuba, Tal Hassner
+  venue: CVPR
+  year: 2021
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/2105.05486
+    - title: Website/Dataset
+      url: https://textvqa.org/textcaps
+- title: "Seeing the un-scene: Learning amodal semantic maps for room navigation"
+  authors: Medhini Narasimhan, Erik Wijmans, Xinlei Chen, Trevor Darrell, Dhruv Batra, Devi Parikh, <b>Amanpreet Singh</b>
+  venue: ECCV
+  year: 2020
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/2007.09841
+- title: "TextCaps: A dataset for image captioning with reading comprehension"
+  authors: Oleksii Sidorov, Ronghang Hu, Marcus Rohrbach, <b>Amanpreet Singh</b>
+  venue: ECCV
+  year: 2020
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/2003.12462
+    - title: Website/Dataset
+      url: https://textvqa.org/textcaps
+    - title: Code
+      url: https://github.com/facebookresearch/mmf/tree/main/projects/m4c_captioner
+- title: "Are we pretraining it right? Digging deeper into visio-linguistic pretraining"
+  authors: <b>Amanpreet Singh<sup>*</sup></b>, Vedanuj Goswami<sup>*</sup>, Devi Parikh
+  venue: arXiv
+  year: 2020
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/2004.08744
+    - title: Code
+      url: https://github.com/facebookresearch/mmf/tree/main/projects/pretrain_vl_right
+- title: "The Hateful Memes Challenge: Detecting Hate Speech in Multimodal Memes"
+  authors: Douwe Kiela, Hamed Firooz, Aravind Mohan, Vedanuj Goswami, <b>Amanpreet Singh</b>, Pratik Ringshia, Davide Testuggine
+  venue: NeurIPS
+  year: 2020
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/2005.04790
+    - title: Website
+      url: https://hatefulmemeschallenge.com/
+    - title: Code
+      url: https://github.com/facebookresearch/mmf/tree/main/projects/hateful_memes
 - title: "Iterative Answer Prediction with Pointer-Augmented Multimodal Transformers for TextVQA"
   authors: Ronghang Hu, <b>Amanpreet Singh</b>, Trevor Darrell, Marcus Rohrbach
-  venue: arXiV
-  year: 2019
+  venue: CVPR
+  year: 2020
   links:
     - title: Paper
       url: https://arxiv.org/abs/1911.06258
-  thumbnail:
+    - title: Website
+      url: https://ronghanghu.com/m4c/
+    - title: Code
+      url: https://mmf.sh/docs/projects/m4c/
 - title: "SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems"
   authors: Alex Wang<sup>*</sup>, Yada Pruksachatkun<sup>*</sup>, Nikita Nangia<sup>*</sup>, <b>Amanpreet Singh<sup>*</sup></b>, Julian Michael, Felix Hill, Omer Levy, Samuel R. Bowman
   venue: NeurIPS (Spotlight)
@@ -17,7 +112,6 @@
       url: https://super.gluebenchmark.com
     - title: Code
       url: https://github.com/nyu-mll/jiant
-  thumbnail:
 - title: Towards VQA Models That Can Read
   authors: <b>Amanpreet Singh</b>, Vivek Natarajan, Meet Shah, Yu Jiang, Xinlei Chen, Dhruv Batra, Devi Parikh, Marcus Rohrbach
   venue: CVPR
@@ -58,13 +152,13 @@
       url: https://gluebenchmark.com
     - title: Code
       url: https://github.com/nyu-mll/GLUE-Baselines
-- title: "Pythia: A platform for vision & language research"
-  authors: <b>Amanpreet Singh</b>, Vivek Natarajan, Yu Jiang, Xinlei Chen, Meet Shah, Marcus Rohrbach, Dhruv Batra, Devi Parikh
+- title: "MMF: A multimodal framework for vision & language research"
+  authors: <b>Amanpreet Singh</b>, Vedanuj Goswami, Vivek Natarajan, Yu Jiang, Xinlei Chen, Meet Shah, Marcus Rohrbach, Dhruv Batra, Devi Parikh
   venue: SysML Workshop, NeurIPS
   year: 2019
   links:
     - title: Code
-      url: https://github.com/facebookresearch/pythia
+      url: https://github.com/facebookresearch/mmf
 - title: "Neural Network Acceptability Judgments"
   authors: Alex Warstadt, <b>Amanpreet Singh</b>, Samuel R. Bowman
   venue: TACL, EMNLP (Oral) - 2019

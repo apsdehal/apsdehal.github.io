@@ -6,9 +6,9 @@
         <div class="about">
             <div class="section-heading bigger"><span>about</span></div>
             <div>
-                <p>I am a research engineer at Facebook AI Research working with Devi Parikh and Dhruv Batra.
-                I graudated with Master's from NYU in 2018 where I worked with Rob Fergus, Jason Weston and Sam Bowman.
-                My research interests include deep learning in both Computer Vision and NLP.</p>
+                <p>I am currently working on research at HuggingFace. Previously, I worked at Meta AI Research.
+                I graudated with Master's from NYU in 2018 where I was advised by Sam Bowman.
+                My research interests include multimodal deep learning on intersection of computer vision and NLP.</p>
             </div>
         </div>
 
