@@ -443,9 +443,10 @@ hr {
 	}
 
 	.post .container {
-		width: 60%;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
 	}
-
 	.name {
 		font-size: 2.5em;
 	}
@@ -462,7 +463,7 @@ hr {
 	}
 
 	.main-container {
-		width: 60%;
+		width: 70%;
 		margin-top: 30px;
 	}
 
@@ -495,7 +496,9 @@ hr {
 	}
 
 	.post .container {
-		width: 50%;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.name {
@@ -578,12 +581,14 @@ hr {
 	}
 
 	.main-container {
-		width: 50%;
+		width: 70%;
 		margin-top: 40px;
 	}
 
 	.post .container {
-		width: 40%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
 	}
 
 	.blog .posts {
@@ -601,11 +606,11 @@ hr {
 
 	.info-container {
 		margin-top: 50px;
-		width: 40%;
+		width: 50%;
 	}
 
 	.main-container {
-		width: 40%;
+		width: 50%;
 		margin-top: 50px;
 	}
 
