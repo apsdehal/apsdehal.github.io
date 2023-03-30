@@ -6,9 +6,10 @@
         <div class="about">
             <div class="section-heading bigger"><span>about</span></div>
             <div>
-                <p>I am currently working on research at HuggingFace. Previously, I worked at Meta AI Research.
-                I graudated with Master's from NYU in 2018 where I was advised by Sam Bowman.
-                My research interests include multimodal deep learning on intersection of computer vision and NLP.</p>
+                <p>AI Researcher. </p>
+                <p>Previously, I worked at Hugging Face and Meta AI Research.
+                I graudated with Master's from NYU where I was advised by Sam Bowman.
+                My research interests include multimodal deep learning on the intersection of computer vision and NLP.</p>
             </div>
         </div>
 
