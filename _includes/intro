@@ -6,10 +6,9 @@
         <div class="about">
             <div class="section-heading bigger"><span>about</span></div>
             <div>
-                <p>CTO and Co-founder at <a href="https://contextual.ai">Contextual AI</a>. </p>
-                <p>Previously, I worked at Hugging Face and Meta AI Research.
-                I graduated with Master's from NYU where I was advised by Sam Bowman.
-                My research interests include multimodal deep learning on the intersection of computer vision and NLP.</p>
+                <p>CTO and Co-founder at <a href="https://contextual.ai">Contextual AI</a>, where we are building an enterprise-grade platform for AI workflows. </p>
+                <p>Previously, I worked at Hugging Face and Meta AI Research, where I conducted many research endeavors.
+                My current focus is on the intersection of AI and enterprises.</p>
             </div>
         </div>
 
