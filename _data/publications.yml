@@ -1,3 +1,53 @@
+- title: "LMUnit: Fine-grained Evaluation with Natural Language Unit Tests"
+  authors: Jon Saad-Falcon, Rajan Vivek, William Berrios, Nandita Shankar Naik, Matija Franklin, Bertie Vidgen, <b>Amanpreet Singh</b>, Douwe Kiela, Shikib Mehri
+  venue: arXiv
+  year: 2024
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/2412.13091
+- title: "OLMoE: Open Mixture-of-Experts Language Models"
+  authors: Niklas Muennighoff, Luca Soldaini, Dirk Groeneveld, <b>Amanpreet Singh</b>, et al.
+  venue: arXiv
+  year: 2024
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/2409.02060
+    - title: Code
+      url: https://github.com/allenai/OLMoE
+- title: "Anchored Preference Optimization and Contrastive Revisions: Addressing Underspecification in Alignment"
+  authors: Karel D'Oosterlinck, Winnie Xu, Chris Develder, Thomas Demeester, <b>Amanpreet Singh</b>, Christopher Potts, Douwe Kiela, Shikib Mehri
+  venue: TACL
+  year: 2024
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/2408.06266
+- title: "Generative Representational Instruction Tuning"
+  authors: Niklas Muennighoff, Hongjin Su, Liang Wang, Nan Yang, Furu Wei, Tao Yu, <b>Amanpreet Singh</b>, Douwe Kiela
+  venue: arXiv
+  year: 2024
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/2402.09906
+    - title: Code
+      url: https://github.com/ContextualAI/gritlm
+- title: "Towards Language Models That Can See: Computer Vision Through the LENS of Natural Language"
+  authors: William Berrios, Gautam Mittal, Tristan Thrush, Douwe Kiela, <b>Amanpreet Singh</b>
+  venue: arXiv
+  year: 2023
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/2306.16410
+    - title: Code
+      url: https://github.com/ContextualAI/lens
+- title: "OBELISC: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents"
+  authors: Hugo Laurençon, Lucile Saulnier, Léo Tronchon, <b>Amanpreet Singh</b>, et al.
+  venue: NeurIPS
+  year: 2023
+  links:
+    - title: Paper
+      url: https://arxiv.org/abs/2306.16527
+    - title: Dataset
+      url: https://huggingface.co/datasets/HuggingFaceM4/OBELISC
 - title: "Unsupervised Vision-and-Language Pre-training via Retrieval-based Multi-Granular Alignment"
   authors: Mingyang Zhou<sup>*</sup>, Licheng Yu<sup>*</sup>, <b>Amanpreet Singh</b>, Mengjiao Wang, Zhou Yu, Ning Zhang
   venue: CVPR
