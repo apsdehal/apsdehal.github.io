@@ -6,25 +6,19 @@
     </div>
     <div class="social-links">
         <div>
-            <span><a href="//github.com/apsdehal">GitHub</a></span>
-        </div>
-        <div>
             <span><a href="//scholar.google.com/citations?user=aWiMKLsAAAAJ&hl=en">Google Scholar</a></span>
         </div>
-        <div>
-            <span><a href="#publications">Publications</a></span>
-        </div>
-        <div>
-            <span><a href="blog">Posts</a></span>
-        </div>
-        <!-- <div>
-            <span><a href="CV.pdf">CV</a></span>
-        </div> -->
         <div>
             <span><a href="//twitter.com/apsdehal">Twitter</a></span>
         </div>
         <div>
             <span><a href="//www.linkedin.com/in/apsdehal">LinkedIn</a></span>
+        </div>
+        <div>
+            <span><a href="//github.com/apsdehal">GitHub</a></span>
+        </div>
+        <div>
+            <span><a href="#publications">Publications</a></span>
         </div>
         <div>
             <span><a href="mailto:me@apsdehal.in">Email</a></span>
